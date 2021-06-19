@@ -1,0 +1,1659 @@
+<html lang="ru">
+ <head>
+  <script async="async" charset="UTF-8" src="https://cdn.taboola.com/scripts/cds.js" type="text/javascript">
+  </script>
+  <script async="" src="https://www.google-analytics.com/plugins/ua/ec.js" type="text/javascript">
+  </script>
+  <script async="" id="tb_tfa_script" src="//cdn.taboola.com/libtrc/unip/1320396/tfa.js">
+  </script>
+  <script async="" src="https://websdk.appsflyer.com?st=pba&amp;af_id=fbf26c30-fda3-4ee9-a424-abe0376edd18">
+  </script>
+  <script async="" src="//www.googleadservices.com/pagead/conversion_async.js" type="text/javascript">
+  </script>
+  <script async="" src="https://connect.facebook.net/signals/config/1549863475332450?v=2.9.40&amp;r=stable">
+  </script>
+  <script async="" src="https://connect.facebook.net/en_US/fbevents.js">
+  </script>
+  <script async="" src="https://www.google-analytics.com/analytics.js" type="text/javascript">
+  </script>
+  <script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-KC2KW5">
+  </script>
+  <script async="" data-analytics-api-url="//sopr-api.cian.ru/collect/" data-profile-session-key="D33B7E46-BB92-11EB-AEF9-EC2F9C43B523" src="//cdn.cian.site/frontend/ca/l/ca.min.js">
+  </script>
+  <script>
+   window.performance&&window.performance.mark&&window.performance.mark("first-mark")
+  </script>
+  <meta charset="utf-8"/>
+  <title>
+   Личный кабинет - заявки
+  </title>
+  <link href="//www.googletagmanager.com/gtm.js?id=GTM-KC2KW5" rel="prefetch"/>
+  <style>
+   button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}*,legend{box-sizing:border-box}body{margin:0;display:flex;flex-direction:column;min-height:100%}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}button,input,optgroup,select,textarea{font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{display:table;max-width:100%;padding:0;white-space:normal}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}html{-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#121212;font-family:Lato,Arial,sans-serif;font-size:14px;height:100%;line-height:20px}button,input,optgroup,select,textarea{font-family:inherit}
+  </style>
+  <script src="//cdn.cian.site/frontend/polyfills/l/polyfills.min.js">
+  </script>
+  <script data-fonts-public-path="//cdn.cian.site/frontend/fonts/" src="//cdn.cian.site/frontend/fonts/l/fonts.min.js">
+  </script>
+  <style>
+   @font-face {font-family:"Lato";src:url("//cdn.cian.site/frontend/fonts/h/lato-light.8ace6b1277ed813eb94ec6d203375b19.eot");src:url("//cdn.cian.site/frontend/fonts/h/lato-light.8ace6b1277ed813eb94ec6d203375b19.eot?#iefix") format("embedded-opentype");src:url("//cdn.cian.site/frontend/fonts/h/lato-light.f4bb81474f2abfbe98df2a92d1964863.woff2") format("woff2");src:url("//cdn.cian.site/frontend/fonts/h/lato-light.b111aa90cd9c49c44895c770f92145a2.woff") format("woff");src:url("//cdn.cian.site/frontend/fonts/h/lato-light.699c18d9a84e78932a0ca6c5df3881ca.ttf") format("truetype");font-display:swap;font-style:normal;font-weight:300;text-rendering: optimizeLegibility;}@font-face {font-family:"Lato";src:url("//cdn.cian.site/frontend/fonts/h/lato-regular.d596eceac825ab1eeb195b7e047a9e59.eot");src:url("//cdn.cian.site/frontend/fonts/h/lato-regular.d596eceac825ab1eeb195b7e047a9e59.eot?#iefix") format("embedded-opentype");src:url("//cdn.cian.site/frontend/fonts/h/lato-regular.f9875f1f1ba68caa069063bba4a9690d.woff2") format("woff2");src:url("//cdn.cian.site/frontend/fonts/h/lato-regular.b161dee4fbd8bfd462ba01aa864a7562.woff") format("woff");src:url("//cdn.cian.site/frontend/fonts/h/lato-regular.d28eea1ae87c29dbd7cda882d3ec9502.ttf") format("truetype");font-display:swap;font-style:normal;font-weight:400;text-rendering: optimizeLegibility;}@font-face {font-family:"Lato";src:url("//cdn.cian.site/frontend/fonts/h/lato-italic.7e48c280b4d4a898d1f8e0aa68f6c464.eot");src:url("//cdn.cian.site/frontend/fonts/h/lato-italic.7e48c280b4d4a898d1f8e0aa68f6c464.eot?#iefix") format("embedded-opentype");src:url("//cdn.cian.site/frontend/fonts/h/lato-italic.7203689e73c3e33ffb76eab912cf6cd8.woff2") format("woff2");src:url("//cdn.cian.site/frontend/fonts/h/lato-italic.8694a50c736c38f8d66e8a056fac80fa.woff") format("woff");src:url("//cdn.cian.site/frontend/fonts/h/lato-italic.bd93cbe71fd6e18466f34b986bb1bb97.ttf") format("truetype");font-display:swap;font-style:italic;font-weight:400;text-rendering: optimizeLegibility;}@font-face {font-family:"Lato";src:url("//cdn.cian.site/frontend/fonts/h/lato-semibold.f9bd159b8dcca6f3bfd0dbd14c4ce02b.eot");src:url("//cdn.cian.site/frontend/fonts/h/lato-semibold.f9bd159b8dcca6f3bfd0dbd14c4ce02b.eot?#iefix") format("embedded-opentype");src:url("//cdn.cian.site/frontend/fonts/h/lato-semibold.29f0b3121975316b94730a7eac0d021a.woff2") format("woff2");src:url("//cdn.cian.site/frontend/fonts/h/lato-semibold.14758955513c1557e9f5000955234f49.woff") format("woff");src:url("//cdn.cian.site/frontend/fonts/h/lato-semibold.2a641e82527ac21226c92b288cd4b1a9.ttf") format("truetype");font-display:swap;font-style:normal;font-weight:600;text-rendering: optimizeLegibility;}@font-face {font-family:"Lato";src:url("//cdn.cian.site/frontend/fonts/h/lato-semibolditalic.c63ca32648c49688cdca595910a19ad7.eot");src:url("//cdn.cian.site/frontend/fonts/h/lato-semibolditalic.c63ca32648c49688cdca595910a19ad7.eot?#iefix") format("embedded-opentype");src:url("//cdn.cian.site/frontend/fonts/h/lato-semibolditalic.4e906a2c9ff270febe5e990eda74fcd0.woff2") format("woff2");src:url("//cdn.cian.site/frontend/fonts/h/lato-semibolditalic.acfb099cf88603e9423fe696d345b380.woff") format("woff");src:url("//cdn.cian.site/frontend/fonts/h/lato-semibolditalic.d966a7b68e4a78d3549422f486f3fb1c.ttf") format("truetype");font-display:swap;font-style:italic;font-weight:600;text-rendering: optimizeLegibility;}@font-face {font-family:"Lato";src:url("//cdn.cian.site/frontend/fonts/h/lato-bold.8b18e9a45d401e0ca995272fbb1aca10.eot");src:url("//cdn.cian.site/frontend/fonts/h/lato-bold.8b18e9a45d401e0ca995272fbb1aca10.eot?#iefix") format("embedded-opentype");src:url("//cdn.cian.site/frontend/fonts/h/lato-bold.6506895a7a6d9ebfe9b5892579c34308.woff2") format("woff2");src:url("//cdn.cian.site/frontend/fonts/h/lato-bold.e558e4141667a1cc003ebc8ed565ef9d.woff") format("woff");src:url("//cdn.cian.site/frontend/fonts/h/lato-bold.c607b4b665e00f479476911cc9a0e056.ttf") format("truetype");font-display:swap;font-style:normal;font-weight:700;text-rendering: optimizeLegibility;}@font-face {font-family:"Lato";src:url("//cdn.cian.site/frontend/fonts/h/lato-bolditalic.a2a885c940e62271ff6a3fe11792e03d.eot");src:url("//cdn.cian.site/frontend/fonts/h/lato-bolditalic.a2a885c940e62271ff6a3fe11792e03d.eot?#iefix") format("embedded-opentype");src:url("//cdn.cian.site/frontend/fonts/h/lato-bolditalic.5529dd2d6503c66930587b3d77522237.woff2") format("woff2");src:url("//cdn.cian.site/frontend/fonts/h/lato-bolditalic.d7e69ef007501c15490b166c52dbdcd4.woff") format("woff");src:url("//cdn.cian.site/frontend/fonts/h/lato-bolditalic.edcf5f82ef9609b10be4d2464fe2cc24.ttf") format("truetype");font-display:swap;font-style:italic;font-weight:700;text-rendering: optimizeLegibility;}@font-face {font-family:"Lato";src:url("//cdn.cian.site/frontend/fonts/h/lato-black.fed940f39ed1e7c6f830e4d74d890525.eot");src:url("//cdn.cian.site/frontend/fonts/h/lato-black.fed940f39ed1e7c6f830e4d74d890525.eot?#iefix") format("embedded-opentype");src:url("//cdn.cian.site/frontend/fonts/h/lato-black.6080b596cc762c72e998932cf3bb0bbd.woff2") format("woff2");src:url("//cdn.cian.site/frontend/fonts/h/lato-black.d80af6888e94820ce6d6d5c7da68ec4e.woff") format("woff");src:url("//cdn.cian.site/frontend/fonts/h/lato-black.85bf3398fe47cac6c64e1f1ce140c95c.ttf") format("truetype");font-display:swap;font-style:normal;font-weight:900;text-rendering: optimizeLegibility;}
+  </style>
+  <script>
+   "use strict";window.ceb=function(){var t=function(){function t(){this._q=[],this._c=[],this._s=!1}return t.prototype.emit=function(t){this._q.push(t),this._t()},t.prototype.subscribe=function(t){this._c.push(t),this._t()},t.prototype._t=function(){var t=this;this._s||(this._s=!0,setTimeout(function(){t._s=!1,t._r()},0))},t.prototype._r=function(){if(0!==this._c.length)try{var t=this._q.shift();t&&this._c.forEach(function(i){return i(t)})}finally{this._q.length>0&&this._t()}},t}();return new(function(){function i(){this._q={}}return i.prototype.emit=function(t,i){this._e(t).emit(i)},i.prototype.subscribe=function(t,i){this._e(t).subscribe(i)},i.prototype._e=function(i){return this._q[i]||(this._q[i]=new t),this._q[i]},i}())}()
+  </script>
+  <script>
+   !function(){var i={"user":{"userId":19394474},"page":{"pageType":"ListingDemand","siteType":"desktop"},"products":[{"offerType":"demand","id":1566405,"position":1},{"offerType":"demand","id":1565927,"position":2},{"offerType":"demand","id":1565493,"position":3},{"offerType":"demand","id":1565479,"position":4},{"offerType":"demand","id":1562387,"position":5},{"offerType":"demand","id":1561164,"position":6},{"offerType":"demand","id":1560990,"position":7}]};"ca"in window||(window.ca=function(i,a){window.ca.q.push([i,a])},window.ca.q=[]),ca("pageview",i)}()
+  </script>
+  <link href="//static.criteo.net" rel="dns-prefetch"/>
+  <link href="//trc-events.taboola.com" rel="dns-prefetch"/>
+  <link href="//cm.adform.net" rel="dns-prefetch"/>
+  <link href="//rtax.criteo.com" rel="dns-prefetch"/>
+  <link href="//gum.criteo.com" rel="dns-prefetch"/>
+  <link href="//sslwidget.criteo.com" rel="dns-prefetch"/>
+  <link href="//connect.facebook.net" rel="dns-prefetch"/>
+  <link href="//cdn.uxfeedback.ru" rel="dns-prefetch"/>
+  <link href="//websdk.appsflyer.com" rel="dns-prefetch"/>
+  <link href="//www.googleadservices.com" rel="dns-prefetch"/>
+  <link href="//www.googletagmanager.com" rel="dns-prefetch"/>
+  <link href="//adservice.google.com" rel="dns-prefetch"/>
+  <link href="//www.google.ru" rel="dns-prefetch"/>
+  <link href="//googleads.g.doubleclick.net" rel="dns-prefetch"/>
+  <link href="//fonts.googleapis.com" rel="dns-prefetch"/>
+  <link href="//www.google.com" rel="dns-prefetch"/>
+  <link href="//www.google-analytics.com" rel="dns-prefetch"/>
+  <link href="//widget.uxfeedback.ru" rel="dns-prefetch"/>
+  <link href="//cdn.cian.site/frontend/leads-listing-frontend/styles.175a699fef3a75585741.css" rel="stylesheet" type="text/css"/>
+  <script async="" src="https://rtax.criteo.com/delivery/rta/rta.js?netId=4921&amp;cookieName=crtg_rta&amp;rnd=8887542714&amp;varName=crtg_content" type="text/javascript">
+  </script>
+  <script async="" src="https://vk.com/js/api/openapi.js?160" type="text/javascript">
+  </script>
+  <script async="" src="https://cdn.uxfeedback.ru/widget.js">
+  </script>
+  <meta content="A7iusd6XVbb7SOF83vXQdziVdvBy4R7Bh2tuVErLbKXxemIjQH20g7jWaz48nG08Cd6zfylzuF+H+1s9S3JodAEAAACOeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGVhZHNlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==" http-equiv="origin-trial"/>
+  <script src="https://www.googleadservices.com/pagead/conversion/751996459/?random=1621752486265&amp;cv=9&amp;fst=1621752486265&amp;num=1&amp;value=0&amp;label=XxeICJCxpbABEKucyuYC&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=2505059651&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=2&amp;u_tz=180&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wg5c1&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fmy.cian.ru%2Fleads%2F&amp;tiba=%D0%9B%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%20-%20%D0%B7%D0%B0%D1%8F%D0%B2%D0%BA%D0%B8&amp;hn=www.googleadservices.com&amp;bttype=purchase&amp;async=1&amp;rfmt=3&amp;fmt=4">
+  </script>
+  <style id="uxs-styles">
+   .uxs-loader {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  background-color: #333;
+  border-radius: 100%;
+  -webkit-animation: uxs-load 1.0s infinite ease-in-out;
+  animation: uxs-load 1.0s infinite ease-in-out;
+}
+
+.uxs-overlay {
+  position: fixed;
+  z-index: 1000000;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+@-webkit-keyframes uxs-load {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes uxs-load {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+.uxs-back {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999999;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.26);
+  -webkit-overflow-scrolling: touch;
+
+  height: 100%;
+  overflow: visible;
+  max-height: 100%;
+}
+
+.uxs-back iframe {
+  width: 100%;
+  height: 99%;
+  display: block;
+}
+
+.uxs-slide-back {
+  z-index: 999998;
+  overflow: auto;
+  height: auto;
+  position: fixed;
+  opacity: 0;
+  -webkit-overflow-scrolling: touch;
+  overflow: visible;
+}
+
+.uxs-slide-back {
+  max-height: 100%;
+}
+
+.uxs-mobile-slide-back {
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.uxs-slide-back.uxs-mobile-slide-back iframe {
+  display: block;
+}
+
+.uxs-slide-back.lowerLeft,
+.uxs-slide-back.upperRight,
+.uxs-slide-back.upperLeft,
+.uxs-slide-back.lowerRight {
+  opacity: 1;
+}
+
+.uxs-slide-back.lowerLeft {
+  left: 0;
+  bottom: 0;
+}
+.uxs-slide-back.upperRight {
+  right: 0;
+}
+.uxs-slide-back.upperLeft {
+  left: 0;
+}
+.uxs-slide-back.lowerRight {
+  right: 0;
+  bottom: 0;
+}
+
+.uxs-widget {
+  padding: 5px;
+  border: 2px solid red;
+  background-image : attr(data-src url);
+  background-size: cover;
+}
+
+.uxs-wrapper, .uxs-mobile-wrapper {
+  font-size: 0;
+  line-height: 0;
+}
+.uxs-wrapper img, .uxs-mobile-wrapper img {
+  display: block;
+}
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400&amp;amp;subset=cyrillic" id="uxs-fonts" rel="stylesheet"/>
+ </head>
+ <body>
+  <div>
+   <div class="uxs-wrapper" id="uxs_5bacd42022bf0b48cece6012" style="z-index: 999; position: fixed; cursor: pointer; text-align: right; bottom: 0px; left: 23px; opacity: 1;">
+    <img alt="UX Feedback" src="https://widget.uxfeedback.ru/5bacd42022bf0b48cece6012/15008659n.png" style="width: 155px !important; height: auto;" width="155"/>
+   </div>
+  </div>
+  <script type="text/javascript">
+   window._cianSystemLogger = window._cianSystemLogger || {};
+window._cianSystemLogger['leads-listing-frontend'] = {"logBaseUrl":"https://www.cian.ru/ajax/log-error/"};
+if (!window._cianSystemLogger.v2) {
+window._cianSystemLogger.v2 = {"logBaseUrl":"https://www.cian.ru/ajax/log-error/"};
+}
+  </script>
+  <div id="leads-listing-frontend" style="flex: 1 1 auto;">
+   <div data-name="LayoutWrapper">
+    <div class="f341f0ad46--wrapper--2ZE1s" data-name="Layout">
+     <header class="f341f0ad46--header--3MmZD" data-name="Header">
+      <div class="f341f0ad46--header__content--oOit9">
+       <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--header__logo--3mnLJ" data-mark="link|header|logo" data-name="SmartLink" href="https://my.cian.ru/">
+        <img alt="logo" class="f341f0ad46--header__logo-image--4H-Vh" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAABrCAMAAAD6iU8nAAAC+lBMVEUAAAD///////////////////////////////////////////////////////////////////////9Yo9EMGCJZo9P///90qbxNk89bpuFcqtZSlc9Vm9H///9drNb///9VnNFVnNJbqtb///9gsdf///9YnNP///9bqNX///9Xp9RoxdsQX7FhttT///////////9XoNJapdP///9DjsL///////////////////////////////9pxt3///////////////////9rxt5pw9v///////////9mwtr///////////////9brtH///////9dq9dbqNZryN3///////////////9syd7///9pvN3///////////9mv9Njvtpasc9ats9FnLn///9Hkq5szd5nvtv///9cqOP///9hsddsyN3///9fr9dbrtdmw9T///9YqtVfsdVbqdZkv9j///9XpNH///////80Xm////////9nv9tryt5y0Oxmv9tx0+1lvNlWodVmv9ZQlMlVp85rzN1lveRz1+5pwNxjvNddtM5oyNlTkMhGgZRnzeAto7H///9Vr86B8P9frc1ryOR75P9Ynr502v9qxelar9BMkclTkcRGf45qxetHgqxKippvx+JktvJRtMZjtN9XndBencVPlKhLgpUrU2Nqv9hCfY////9VnNFXn9JWntJao9NVmdBapdRbqdZbp9VUmNBsyt1mvdtWmtFXodNTl9BYotNrx91ZodNWndFUmtFkudpZo9RapNRsyd1pwdxnv9tcq9ZbptVszN5lu9tap9Vqw9xSlc9mvNtqxNxitNhcqtZjt9llutpTls9drdddrNdrxt1rxdxowNxkuNltzd9itdpkt/RuyeBsx95owNpisvJqwt5lutxbm9hfn9ZQk85Vm81TlsxtyeduzuFqv9900edwz+ddndl32fBnu99qw9pTmMx85/501flqwe1txelrwuZwv+VfquJquOBXltZwyPFfreRcqN5ho9mDM6wUAAAAq3RSTlMAS7HyIoCLv21HNnRp0HxDzZqPBxte+AJg6pZ8e3ltBdKpXxz+7+yuqEwxKCAQx7m1qKehi1gQC9TBp18+PTsyJhT12MGIhYF7cGRQLScX/Pv76OXi4N3OzLiXjX1jUUQ5LiQb7u7r6+nm4tnQrJ6Tgnt1cGxXVFJJSDj59/Dm39jWzcO/ubCqmJeOiYllWTInHvn28+PdzMm7s6egm4WCgXt1bWlaUEUvGxP/JS7cAAAIFklEQVR42uzZXUhaYRgH8GcfsVZju/BCCOqiebEWEmxXwdwHBTNWu+gmZFlGdVG0qLVYo09irVpUtO/BxsbGPr12N14IKhhyEqXUFBW98ouKasXY1dL32Hs8nqPuJnbx/G7k/b+g+Oc9B55z4F8p5qa6O0Y6aqaUlYCyGmj0eCxJB59NDYBEKTo8EQsV0fdKAQmbi3gsXLpIrBGvRWHTHl0Gi0cBKNPshk6AJY5nK5PaZ9EJiYzjfYuv/alObxQUewIo3dttI8tnMXY3NRo9Hj273lgExFW5saUnjCPK74mg1+UjgSvWC4jr/bZLTzTJgWgb9bPRczkgjsk46cVfI6WnzacnfAuAqKXYljPJrwBK6WfDGUDU17jfleCvBY5KF6GvBUQtbK0kxT8Ch7SbpNYmQJR6hXC2AFctG9cAotRWFq8sNsWyuFqsLCVwSBqdyXBlEhClCZqSnLXA0RYksVUFiJJ0krKCO0NAfQiaCCUgjulAwHQgEB77ASmKRJQIrfhMK818OOhOcIRfVALRYnIT0QlAXJJxk5lwm2c0cqm8VRUws0wDgNIMmMzUcOcwXQTGJIDS1YSZn0KYPTUgni/uqGBZ7h5AGVSCR4vxtQLKsMhEmUzRu4AEzEYdyxlM+ApfkLwz5OBj8NWOiH5mOZ3BPoqP38VMMIY0oV/zgEQMOgxc9vVXgESpeAdrCJAozbphnQo9BpTFu02b/dB+G6As2p9t2lM23wDKqn9H5iVs+zjo5CB9uWcjQhcA5fD5j4yUxeCgk9uj37YERx+gnDSkrC4cdPJxKSSTybxlgPKwJLPJZK8B5aXP7t3FQSdPki4vDjp5+7T7DVCe2gcBIXSUyi/Cf+zc5RuQ1bFSODr3VnskdNXaV5bS3wA5PWguZNUV3wae86V1qd2CCuC5erMwpbkeRN3Saq9DVtXaesiqiP5SwTXgqyhIbRafyaOrVW5bJatUOeRUraWuAM9DLVUFPHe0VB2IuX+wexKyOU2/W0SBljoLfFV08wTkULKW0NVAy1o7lEdZp7RUUeb/oI4Dz9/27C6kqTAM4PhTW5H2ofYx7Ys1pKZSa23Z1jZ0C7YoIwtNxLrJoAIJIfog76Iuu+i6IAi6ezQthVVU1EVBdBFId10Epl110V1EBbk5fd5zfM/Os+Pes13sf+XOeTbw57vtPceVSBn9SUNeNMOqDyPiKjbWatC3nI916d1cJ1rmsd5RpcY6fgpNsdbhbK5GlVhklevziZayw2o/hKZYCQdmCtqA1fSJymltEQ6VFmsZohkWffLFlGM1PRU72ZLFEo6UFGsNMrDuYq6DqrBoXWmwZtdWGWElkYMVwfmiKrFoXZHWyZaywQoiBytGQ91ulVhN44ub1doiPNxUKqz6g8jC2ovUYRVYZCXT2nC5DLDcYWRhNaNQp1MZVtMHaeM3bwuPSoTl9iEPqxfFgqqwAuPvGdmMRVtRHtZR1NamBivwhJW9WLQV5WG5u1HbXiVYgffli9WMyMTajvquK8AKPHnLqwRYa5CLldiJ+sLFxwq8fcPMfqwksrHo+dSRYmMF3oxysx0rgmysOEo6Hyocy5sHa9/oaLli0VaUgRWkX/E8jabMsHzJOk19p0+JWHqrF/zsxUr0IB+rjU733aCfXY1SLGYOndWLlwVkK9YxB1IulwxLfqFTAwP0oG7pWGT1rJDsxKpCsWa/DEu6wagFuIJUe7Gw9j0bKairdmEd1e3Gh6A2P1Yvivdm3F300FskrH1ykplff2bkZx7ZhdXRqt9crs2HJdL26Panh44vCYus5P19cOuLXGvXHpuwul1IuarBBMt9Sre1OiBsUFPFwPI8NughbNz8ZUZ2ZmTHBpVY8roawQRLXEgXQ5ApJftCtI7lGTGw2gYAGy+QlibSsgurNgRmWOI6WgHZGoWl2Wcdi9aVoRVDSz0WjZlirZR8Qg0idWyJWJ5XBs1ZQead+FN2nrRswRoEc6x+2b1kcWlF8mDVOWs0xY759FieYYMyVqQlHSEt9VirgYEVRKrN3e/MBl7xqNVrQ4YVU0s9ViswsIaQOuTAXC4HUn6rdx3MrUjr63eGljKszjbgYPnRvCrLWJ60QWRFWtJB0lKIddEJHKxlyOigVSzP8Gt5ZCVqySaHb9Yrx1obAhaWDzl1WMTamh6TRlZarcWT6an7wMFqB101SHnzY/kBWFhRZNVrEQsa0mmWFWnpre4ACyuyYr2mM16keg6fzhyL1Eix+oCHVd+DvKIWsaBhbGxC31YAQy3t5NiP/cDA4rZChrUdmFjbkVnYGlZWy9SKtHb9mmRYWcZaJ8FqBQYWXeiwWmMVCxomnmsiK4nWhX8faXKCrFRhdcaAi5VEaqevt1abbwCpbrdFLNIiK+N27/pGWmSlCut8HLhYzk6krsCi3F0iiyWsnNbkQmRlqDU9N/l8iqwUYYUPABsriFSX2+Sf1BdDlrGgYfJjLrLKp5UdJStVWHsB2FjVaPCdIP9MW2cBi7QmyYqhRVYKseqgACw/UjvlCzKlGbGARVpkxdGanroHirHOAAtLcqGTBGmNLqRSFrBIi6w4Wr9vgWKsKBgWRqofsg2g4b1jahCF4oRl/O71a7FIa/oOcNv9ewcwGrq2zLQb1T4JVh3WgHGxhdftaA5BpkSUXrG1GgxKXGueH6o6eheyxVvpiU7Q175wtqMKhOrPbgC+1jkoWl4JVn8cKslaLmJVqmBVsBhVsAqoglVAFawCqmCVMr94p7RS/iLoyIWroYz7D0/Vp3Lmty7aAAAAAElFTkSuQmCC"/>
+       </a>
+       <a class="f341f0ad46--header__title--LO7u8" href="https://my.cian.ru/">
+        Личный кабинет
+       </a>
+       <div class="f341f0ad46--header__items--CrgJW">
+        <a class="f341f0ad46--smart-link--1IGPa" data-mark="link|header|add" data-name="SmartLink" href="https://www.cian.ru/realty/add1.aspx" rel="noopener" target="_blank">
+         <div class="f341f0ad46--header__item--YKcxA">
+          <div class="f341f0ad46--header__item-icon--2-mUc">
+           <span class="f341f0ad46--icon--10Flw" data-mark="icon|add" data-name="Icon">
+            <!--?xml version="1.0" encoding="utf-8"?-->
+            <!-- Generator: Avocode 2.3.2-ea60620 - http://avocode.com -->
+            <svg height="20" viewbox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+             <path d="M 10 20 C 4.48 20 0 15.52 0 10 C 0 4.48 4.48 0 10 0 C 15.52 0 20 4.48 20 10 C 20 15.52 15.52 20 10 20 Z M 10 2 C 5.58 2 2 5.58 2 10 C 2 14.42 5.58 18 10 18 C 14.42 18 18 14.42 18 10 C 18 5.58 14.42 2 10 2 Z M 11 15 C 11 15 9 15 9 15 C 9 15 9 11 9 11 C 9 11 5 11 5 11 C 5 11 5 9 5 9 C 5 9 9 9 9 9 C 9 9 9 5 9 5 C 9 5 11 5 11 5 C 11 5 11 9 11 9 C 11 9 15 9 15 9 C 15 9 15 11 15 11 C 15 11 11 11 11 11 C 11 11 11 15 11 15 Z" fill-rule="evenodd">
+             </path>
+            </svg>
+           </span>
+          </div>
+          <div>
+           <span>
+            Добавить
+            <span class="f341f0ad46--external-link--2XZ9q f341f0ad46--external-link_light--X3u4C" data-name="ExternalLink">
+            </span>
+            <br/>
+            объявление
+           </span>
+          </div>
+         </div>
+        </a>
+        <a class="f341f0ad46--smart-link--1IGPa" data-mark="link|header|favorites" data-name="SmartLink" href="https://www.cian.ru/sale/flat/favorites/" rel="noopener" target="_blank">
+         <div class="f341f0ad46--header__item--YKcxA">
+          <div class="f341f0ad46--header__item-icon--2-mUc">
+           <span class="f341f0ad46--icon--10Flw" data-mark="icon|heart" data-name="Icon">
+            <svg height="15" viewbox="0 0 18 15" width="18" xmlns="http://www.w3.org/2000/svg">
+             <path d="M8.592 13.71c6.321-5.166 7.591-6.735 7.591-9.178A3.537 3.537 0 0 0 12.651 1c-1.38 0-2.245.539-3.311 1.742l-.748.843-.749-.843C6.777 1.539 5.912 1 4.532 1A3.537 3.537 0 0 0 1 4.532c0 2.443 1.27 4.012 7.592 9.178z" fill-rule="evenodd" stroke-width="2">
+             </path>
+            </svg>
+           </span>
+          </div>
+          <div>
+           <span>
+            Избранное
+            <span class="f341f0ad46--external-link--2XZ9q f341f0ad46--external-link_light--X3u4C" data-name="ExternalLink">
+            </span>
+           </span>
+          </div>
+         </div>
+        </a>
+        <a class="f341f0ad46--smart-link--1IGPa" data-mark="link|header|saved" data-name="SmartLink" href="https://my.cian.ru/saved-search" rel="noopener" target="_blank">
+         <div class="f341f0ad46--header__item--YKcxA">
+          <div class="f341f0ad46--header__item-icon--2-mUc">
+           <span class="f341f0ad46--icon--10Flw" data-mark="icon|saved-search" data-name="Icon">
+            <!--?xml version="1.0" encoding="utf-8"?-->
+            <!-- Generator: Avocode 2.3.2-ea60620 - http://avocode.com -->
+            <svg height="20" viewbox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+             <path d="M 19.11 4.88 C 19.11 4.88 14.84 8.87 14.84 8.87 C 14.74 8.96 14.62 9 14.5 9 C 14.47 9 14.44 9 14.41 8.99 C 14.32 8.98 14.23 8.94 14.16 8.87 C 14.16 8.87 9.89 4.88 9.89 4.88 C 8.7 3.76 8.7 1.95 9.89 0.84 C 10.47 0.3 11.24 0 12.06 0 C 12.87 0 13.64 0.3 14.22 0.84 C 14.22 0.84 14.5 1.1 14.5 1.1 C 14.5 1.1 14.78 0.84 14.78 0.84 C 15.36 0.3 16.13 0 16.95 0 C 17.76 0 18.53 0.3 19.11 0.84 C 20.3 1.95 20.3 3.76 19.11 4.88 Z M 3.49 11.85 C 5.25 13.61 8.1 13.61 9.85 11.85 C 10.29 11.42 10.61 10.92 10.83 10.39 C 10.83 10.39 12.66 11.06 12.66 11.06 C 12.44 11.61 12.16 12.15 11.78 12.64 C 11.78 12.64 17.98 17.86 17.98 17.86 C 17.98 17.86 15.86 19.99 15.86 19.99 C 15.86 19.99 10.64 13.78 10.64 13.78 C 8.09 15.76 4.42 15.61 2.08 13.27 C -0.46 10.73 -0.46 6.61 2.08 4.07 C 3.43 2.72 5.23 2.11 7 2.2 C 7 2.2 7 4.2 7 4.2 C 5.74 4.11 4.45 4.53 3.49 5.49 C 1.73 7.25 1.73 10.1 3.49 11.85 Z" fill-rule="evenodd">
+             </path>
+            </svg>
+           </span>
+          </div>
+          <div>
+           <span>
+            Сохранённые
+            <br/>
+            запросы
+           </span>
+          </div>
+         </div>
+        </a>
+        <a class="f341f0ad46--smart-link--1IGPa" data-mark="link|header|lk" data-name="SmartLink" href="https://my.cian.ru/" rel="noopener" target="_blank">
+         <div class="f341f0ad46--header__item--YKcxA">
+          <div class="f341f0ad46--header__item-icon--2-mUc">
+           <span class="f341f0ad46--icon--10Flw" data-mark="icon|person" data-name="Icon">
+            <!--?xml version="1.0" encoding="utf-8"?-->
+            <!-- Generator: Avocode 2.3.2-ea60620 - http://avocode.com -->
+            <svg height="19" viewbox="0 0 16 19" width="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+             <path d="M 15.05 17.87 C 14.29 18.12 13.49 18.31 12.7 18.46 C 11.16 18.76 9.58 18.99 8 19 C 6.42 18.99 4.84 18.76 3.3 18.46 C 2.51 18.31 1.71 18.12 0.95 17.87 C 0.34 17.67 -0.02 17.57 0 16.9 C 0.03 16.04 0.14 15.17 0.31 14.32 C 0.51 13.29 0.76 11.78 1.74 11.11 C 2.31 10.72 3.05 10.59 3.7 10.36 C 4.02 10.24 4.3 10.13 4.57 10 C 5.46 10.9 6.64 11.38 8 11.38 C 9.36 11.38 10.54 10.9 11.43 10 C 11.7 10.13 11.98 10.24 12.3 10.36 C 12.95 10.59 13.69 10.72 14.26 11.11 C 15.24 11.78 15.49 13.29 15.69 14.32 C 15.86 15.17 15.97 16.04 16 16.9 C 16.02 17.57 15.66 17.67 15.05 17.87 Z M 8 10 C 5.27 10 4.29 7.22 4.03 4.93 C 3.71 2.12 5.02 0 8 0 C 10.98 0 12.29 2.12 11.97 4.93 C 11.71 7.22 10.73 10 8 10 Z" fill-rule="evenodd">
+             </path>
+            </svg>
+           </span>
+          </div>
+          <div>
+           <span>
+            ID
+            <!-- -->
+            19394474
+           </span>
+          </div>
+         </div>
+        </a>
+       </div>
+      </div>
+     </header>
+     <div class="f341f0ad46--main--1k-y9">
+      <nav class="f341f0ad46--menu--2WNi2" data-name="Menu">
+       <div class="f341f0ad46--menu__content--3xKJb">
+        <div class="f341f0ad46--menu__items--2kIKq">
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="summary" data-name="SmartLink" href="https://my.cian.ru/">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Сводка
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="my-offers" data-name="SmartLink">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Мои объявления
+             <span class="f341f0ad46--menu__counter--N_fQB" data-mark="my-offers-counter" data-name="MenuCounter">
+              19
+             </span>
+            </span>
+           </span>
+          </a>
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8 f341f0ad46--menu__item_level_2--2fXy4" data-mark="archive" data-name="SmartLink" href="https://www.cian.ru/my/offers/archived" rel="noopener" target="_blank">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Архив
+             <span class="f341f0ad46--external-link--2XZ9q" data-name="ExternalLink">
+             </span>
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="my-offers-beta" data-name="SmartLink" href="https://my.cian.ru/my-offers">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Мои объявления
+            </span>
+            <div class="f341f0ad46--beta-banner--2vmCC">
+             beta
+            </div>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="offers" data-name="SmartLink" href="https://my.cian.ru/offers">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Профпоиск
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8 f341f0ad46--menu__item_state_active--2tcsk" data-mark="leads" data-name="SmartLink" href="https://my.cian.ru/leads">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Заявки
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="packages" data-name="SmartLink" href="https://my.cian.ru/packages">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Пакеты размещений
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="pocket" data-name="SmartLink" href="https://my.cian.ru/pay">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Кошелёк
+            </span>
+           </span>
+          </a>
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8 f341f0ad46--menu__item_level_2--2fXy4" data-mark="refillpage" data-name="SmartLink" href="https://my.cian.ru/pay">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Пополнение счёта
+            </span>
+           </span>
+          </a>
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8 f341f0ad46--menu__item_level_2--2fXy4" data-mark="autopay" data-name="SmartLink" href="https://my.cian.ru/autopay">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Автоплатеж
+            </span>
+           </span>
+          </a>
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8 f341f0ad46--menu__item_level_2--2fXy4" data-mark="operations" data-name="SmartLink" href="https://my.cian.ru/operations?period=week&amp;filter=all">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Операции
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="notifications" data-name="SmartLink" href="https://my.cian.ru/notifications?period=whole">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Уведомления
+             <span class="f341f0ad46--menu__counter--N_fQB" data-mark="notifications-counter" data-name="MenuCounter">
+              5
+             </span>
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="options" data-name="SmartLink" href="https://my.cian.ru/options/remove-competitor">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Дополнительные опции
+            </span>
+           </span>
+          </a>
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8 f341f0ad46--menu__item_level_2--2fXy4" data-mark="remove-competitor" data-name="SmartLink" href="https://my.cian.ru/options/remove-competitor">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Убери конкурента
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="messages" data-name="SmartLink" href="https://www.cian.ru/dialogs" rel="noopener" target="_blank">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Сообщения
+             <span class="f341f0ad46--external-link--2XZ9q" data-name="ExternalLink">
+             </span>
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="reports" data-name="SmartLink" href="https://my.cian.ru/journal?period=whole&amp;filter=all">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Отчёты
+            </span>
+           </span>
+          </a>
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8 f341f0ad46--menu__item_level_2--2fXy4" data-mark="offers-journal" data-name="SmartLink" href="https://my.cian.ru/journal?period=whole&amp;filter=all">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Журнал объявлений
+            </span>
+           </span>
+          </a>
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8 f341f0ad46--menu__item_level_2--2fXy4" data-mark="calltracking-statistic" data-name="SmartLink" href="https://www.cian.ru/user/cian/Statistics/CalltrackingCalls.aspx" rel="noopener" target="_blank">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Отчёт по звонкам
+             <span class="f341f0ad46--external-link--2XZ9q" data-name="ExternalLink">
+             </span>
+            </span>
+           </span>
+          </a>
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8 f341f0ad46--menu__item_level_2--2fXy4" data-mark="placement-report" data-name="SmartLink" href="https://my.cian.ru/statistics">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Отчёт о размещении
+            </span>
+           </span>
+          </a>
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8 f341f0ad46--menu__item_level_2--2fXy4" data-mark="quality-report" data-name="SmartLink" href="https://my.cian.ru/quality-report">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Отчёт по качеству
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="complaints" data-name="SmartLink" href="https://my.cian.ru/complaints?period=whole">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Жалобы
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="black-white-list" data-name="SmartLink" href="https://www.cian.ru/account/rent/flat/realtor_ratings/negative/" rel="noopener" target="_blank">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             <span>
+              Чёрный/белый
+              <br/>
+              списки
+             </span>
+             <span class="f341f0ad46--external-link--2XZ9q" data-name="ExternalLink">
+             </span>
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="hidden-offers" data-name="SmartLink" href="https://my.cian.ru/hidden-offers/" rel="noopener" target="_blank">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Скрытые объявления
+             <span class="f341f0ad46--external-link--2XZ9q" data-name="ExternalLink">
+             </span>
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="tariff" data-name="SmartLink" href="https://www.cian.ru/price/" rel="noopener" target="_blank">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Тарифный план
+             <span class="f341f0ad46--external-link--2XZ9q" data-name="ExternalLink">
+             </span>
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="subagents" data-name="SmartLink" href="https://my.cian.ru/employees">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Сотрудники
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="vacancies" data-name="SmartLink" href="https://cian.ru/vacancies/" rel="noopener" target="_blank">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Вакансии агентств
+             <span class="f341f0ad46--external-link--2XZ9q" data-name="ExternalLink">
+             </span>
+            </span>
+           </span>
+          </a>
+         </div>
+         <div class="f341f0ad46--menu__item-container--3qSif" data-name="MenuItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8" data-mark="profile" data-name="SmartLink" href="https://my.cian.ru/profile">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Профиль
+            </span>
+           </span>
+          </a>
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8 f341f0ad46--menu__item_level_2--2fXy4" data-mark="account-identification" data-name="SmartLink" href="https://my.cian.ru/identification">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Идентификация аккаунта
+            </span>
+           </span>
+          </a>
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8 f341f0ad46--menu__item_level_2--2fXy4" data-mark="subscriptions" data-name="SmartLink" href="https://cian.ru/subscriptions/" rel="noopener" target="_blank">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Мои подписки
+             <span class="f341f0ad46--external-link--2XZ9q" data-name="ExternalLink">
+             </span>
+            </span>
+           </span>
+          </a>
+         </div>
+        </div>
+        <div class="f341f0ad46--menu__tools--3l-NA">
+         <div data-name="MenuToolItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8 f341f0ad46--menu__item_type_tool--16swE" data-mark="settings" data-name="SmartLink" href="https://my.cian.ru/settings?filter=phones">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__icon--1Uzur f341f0ad46--menu__icon_tools--1DPbT">
+             <span class="f341f0ad46--icon--10Flw" data-mark="icon|gear" data-name="Icon">
+              <svg height="17" preserveaspectratio="xMidYMid" viewbox="0 0 17.031 17" width="17.031" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+               <path d="M16.942,9.489 C16.913,9.738 16.688,9.926 16.445,9.906 L16.339,9.903 C15.587,9.903 14.888,10.366 14.599,11.055 C14.291,11.788 14.483,12.640 15.076,13.176 C15.261,13.344 15.283,13.627 15.126,13.822 C14.722,14.325 14.259,14.783 13.750,15.181 C13.554,15.333 13.276,15.311 13.108,15.128 C12.602,14.572 11.701,14.363 11.001,14.649 C10.277,14.945 9.809,15.674 9.837,16.461 C9.845,16.709 9.663,16.921 9.416,16.948 C9.105,16.983 8.793,17.000 8.482,17.000 C8.154,17.000 7.827,16.981 7.502,16.943 C7.254,16.915 7.070,16.697 7.085,16.447 C7.130,15.650 6.668,14.909 5.934,14.602 C5.233,14.308 4.322,14.516 3.813,15.078 C3.644,15.264 3.360,15.287 3.165,15.130 C2.668,14.730 2.215,14.272 1.819,13.769 C1.666,13.575 1.689,13.296 1.871,13.129 C2.453,12.596 2.644,11.751 2.347,11.027 C2.048,10.301 1.337,9.843 0.596,9.862 C0.353,9.862 0.065,9.684 0.039,9.444 C-0.033,8.800 -0.033,8.150 0.042,7.511 C0.072,7.266 0.264,7.085 0.534,7.094 C1.365,7.094 2.091,6.643 2.385,5.945 C2.692,5.212 2.501,4.360 1.909,3.824 C1.724,3.656 1.701,3.373 1.858,3.178 C2.261,2.676 2.725,2.218 3.235,1.818 C3.429,1.667 3.709,1.689 3.877,1.872 C4.383,2.428 5.287,2.635 5.982,2.351 C6.708,2.055 7.175,1.326 7.147,0.538 C7.139,0.291 7.322,0.079 7.569,0.051 C8.206,-0.019 8.847,-0.017 9.482,0.057 C9.732,0.086 9.915,0.303 9.900,0.553 C9.855,1.349 10.317,2.091 11.049,2.399 C11.753,2.692 12.664,2.483 13.171,1.922 C13.339,1.736 13.624,1.715 13.818,1.870 C14.313,2.266 14.766,2.724 15.165,3.230 C15.319,3.424 15.296,3.704 15.113,3.871 C14.532,4.403 14.341,5.248 14.638,5.973 C14.928,6.680 15.620,7.138 16.399,7.138 C16.640,7.138 16.919,7.317 16.946,7.556 C17.018,8.200 17.017,8.850 16.942,9.489 ZM8.495,4.994 C6.562,4.994 4.990,6.568 4.990,8.503 C4.990,10.438 6.562,12.012 8.495,12.012 C10.428,12.012 12.000,10.438 12.000,8.503 C12.000,6.568 10.428,4.994 8.495,4.994 Z" fill-rule="evenodd">
+               </path>
+              </svg>
+             </span>
+            </span>
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Настройки
+            </span>
+           </span>
+          </a>
+         </div>
+         <div data-name="MenuToolItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8 f341f0ad46--menu__item_type_tool--16swE" data-mark="help-centre" data-name="SmartLink">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__icon--1Uzur f341f0ad46--menu__icon_tools--1DPbT">
+             <span class="f341f0ad46--icon--10Flw" data-mark="icon|hint" data-name="Icon">
+              <!--?xml version="1.0" encoding="utf-8"?-->
+              <svg height="17" id="Layer_1" style="enable-background:new 0 0 17 17;" version="1.1" viewbox="0 0 17 17" width="17" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+               <path d="M8.4,0C3.7,0.1-0.1,3.9,0,8.6c0.1,4.7,3.9,8.4,8.6,8.4c4.7-0.1,8.4-3.9,8.4-8.6C16.9,3.7,13.1-0.1,8.4,0z
+	 M8.4,13.7L8.4,13.7c-0.8,0-1.3-0.6-1.3-1.3c0-0.7,0.5-1.2,1.2-1.2l0,0c0.7,0,1.2,0.5,1.2,1.3C9.6,13.2,9.1,13.7,8.4,13.7z
+	 M11.4,7.6c-0.2,0.2-0.5,0.5-1,0.9L9.9,8.9C9.6,9.1,9.4,9.3,9.3,9.5c-0.1,0.2-0.1,0.2-0.1,0.5l0,0.1h-2l0-0.2c0-0.7,0-1.1,0.3-1.4
+	C8.1,8,9.1,7.4,9.1,7.4C9.2,7.3,9.4,7.1,9.4,7c0.2-0.3,0.3-0.5,0.3-0.7c0-0.3-0.1-0.6-0.3-0.8C9.3,5.2,9,5.1,8.5,5.1
+	c-0.5,0-0.8,0.2-1,0.5c-0.2,0.3-0.3,0.6-0.3,1v0.1h-2l0-0.1c0.1-1.3,0.5-2.2,1.3-2.7C7,3.5,7.7,3.3,8.4,3.3c1,0,1.8,0.2,2.5,0.7
+	c0.7,0.5,1,1.2,1,2.1C11.9,6.7,11.7,7.2,11.4,7.6z">
+               </path>
+              </svg>
+             </span>
+            </span>
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             <span>
+              Помощь
+             </span>
+            </span>
+           </span>
+          </a>
+         </div>
+         <div data-name="MenuToolItem">
+          <a class="f341f0ad46--smart-link--1IGPa f341f0ad46--menu__item--2oub8 f341f0ad46--menu__item_type_tool--16swE" data-mark="exit" data-name="SmartLink">
+           <span class="f341f0ad46--menu__item-wrapper--2gxFr">
+            <span class="f341f0ad46--menu__icon--1Uzur f341f0ad46--menu__icon_tools--1DPbT">
+             <span class="f341f0ad46--icon--10Flw" data-mark="icon|exit" data-name="Icon">
+              <svg height="19" preserveaspectratio="xMidYMid" viewbox="0 0 18 19" width="18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+               <path d="M14.000,12.000 L14.000,10.000 L9.000,10.000 L9.000,7.000 L14.000,7.000 L14.000,5.000 L18.000,8.313 L14.000,12.000 ZM13.000,11.000 L13.000,16.000 L7.000,16.000 L7.000,19.000 L-0.000,15.000 L-0.000,-0.000 L13.000,-0.000 L13.000,6.000 L12.000,6.000 L12.000,1.000 L2.000,1.000 L7.000,4.000 L7.000,15.000 L12.000,15.000 L12.000,11.000 L13.000,11.000 Z" fill-rule="evenodd">
+               </path>
+              </svg>
+             </span>
+            </span>
+            <span class="f341f0ad46--menu__item-text--LoWgA">
+             Выйти
+            </span>
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </nav>
+      <main class="f341f0ad46--container--2g04Z">
+       <div class="f341f0ad46--body--1vf7-">
+        <div class="f341f0ad46--container--Xx05j" data-name="MainContent">
+         <div class="f341f0ad46--container--Me6dX" data-name="TopBar">
+          <div>
+           <h1 class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_36px--1qriL f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_28px--2Pw6g f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+            Заявки
+           </h1>
+          </div>
+          <div>
+           <div class="f341f0ad46--control--S7r7x" data-name="Controls">
+            <a class="f341f0ad46--button--MAiHg f341f0ad46--link-button--1fkOB f341f0ad46--XS--3YAjS f341f0ad46--button--1xglg" data-name="SettingsLink" href="/settings/demand" rel="noopener">
+             <svg class="f341f0ad46--container--2qwwB f341f0ad46--display_inline-block--1720b f341f0ad46--color_primary_100--O6-gZ" color="primary_100" fill="none" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+              <g id="16x16/settings">
+               <path clip-rule="evenodd" d="M15.8889 5.66427L13.9371 7.14215C13.9784 7.4256 13.9994 7.71182 14 7.99863L13.9926 8.2879C13.9831 8.47869 13.9646 8.66888 13.9371 8.85785L15.8889 10.3357L13.9671 13.6643L11.7077 12.7111C11.2574 13.0674 10.7582 13.3571 10.2255 13.5713L9.92183 16H6.07816L5.77448 13.5713C5.24175 13.3571 4.74255 13.0674 4.29226 12.7111L2.03291 13.6643L0.111084 10.3357L2.06242 8.85821C1.97923 8.2891 1.97923 7.7109 2.06242 7.14179L0.111084 5.66427L2.03291 2.33567L4.29226 3.28886C4.74255 2.93262 5.24175 2.64294 5.77448 2.42874L6.07816 0H9.92183L10.2255 2.42874C10.7582 2.64294 11.2574 2.93262 11.7077 3.28886L13.9671 2.33567L15.8889 5.66427ZM11 8C11 9.65685 9.65685 11 8 11C6.34315 11 5 9.65685 5 8C5 6.34315 6.34315 5 8 5C9.65685 5 11 6.34315 11 8Z" fill="currentColor" fill-rule="evenodd" id="Subtract">
+               </path>
+              </g>
+             </svg>
+             <span class="f341f0ad46--text--2P6bT">
+              Настроить
+             </span>
+            </a>
+           </div>
+           <div class="f341f0ad46--control--S7r7x" data-name="Controls">
+            <button class="f341f0ad46--button--MAiHg f341f0ad46--button--aQGn7 f341f0ad46--XS--3YAjS f341f0ad46--button--1xglg" data-name="FeedbackContainer">
+             <svg class="f341f0ad46--container--2qwwB f341f0ad46--display_inline-block--1720b f341f0ad46--color_primary_100--O6-gZ" color="primary_100" fill="none" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+              <g id="16x16/message">
+               <path clip-rule="evenodd" d="M0.994747 11.851C1.03405 11.9225 1.05242 12.0036 1.04775 12.085C1.00254 12.4377 0.950765 12.7928 0.89949 13.1445C0.875903 13.3062 0.852423 13.4673 0.829737 13.627C0.780591 13.977 0.732522 14.3259 0.683594 14.6811C0.65088 14.9185 0.617782 15.1588 0.583721 15.404L0.743731 15.394C1.7888 15.248 2.82986 15.104 3.88393 14.964H3.93693C4.01955 14.9651 4.10074 14.9857 4.17395 15.024C5.34096 15.6583 6.64694 15.9936 7.97519 16C8.56886 15.9986 9.16065 15.9333 9.7403 15.805C11.6591 15.3769 13.3532 14.2574 14.4993 12.6602C15.6455 11.063 16.1636 9.09975 15.9547 7.145C15.7415 5.19016 14.817 3.38193 13.357 2.06445C11.8971 0.746973 10.0037 0.0122104 8.03719 0C6.48953 0.00185907 4.97537 0.450868 3.67692 1.293C1.48578 2.699 0.274702 4.752 0.0326863 7.341C-0.11158 8.90711 0.223957 10.4801 0.994747 11.851ZM6 8C6 8.55228 5.55228 9 5 9C4.44772 9 4 8.55228 4 8C4 7.44772 4.44772 7 5 7C5.55228 7 6 7.44772 6 8ZM8 9C8.55229 9 9 8.55228 9 8C9 7.44772 8.55229 7 8 7C7.44772 7 7 7.44772 7 8C7 8.55228 7.44772 9 8 9ZM11 9C11.5523 9 12 8.55228 12 8C12 7.44772 11.5523 7 11 7C10.4477 7 10 7.44772 10 8C10 8.55228 10.4477 9 11 9Z" fill="currentColor" fill-rule="evenodd" id="Subtract">
+               </path>
+              </g>
+             </svg>
+             <span class="f341f0ad46--text--2P6bT">
+              Оставить отзыв
+             </span>
+            </button>
+           </div>
+          </div>
+         </div>
+         <div class="f341f0ad46--container--2Z4DX" data-name="Tabs">
+          <div class="f341f0ad46--tab--jmTj9 f341f0ad46--active--HcTjf" data-name="Tab">
+           <span class="f341f0ad46--color_primary_100--O6-gZ f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+            Новые заявки
+           </span>
+           <span class="f341f0ad46--color_gray60_100--3VLtJ f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+            7
+           </span>
+          </div>
+          <div class="f341f0ad46--tab--jmTj9" data-name="Tab">
+           <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+            Заявки в работе
+           </span>
+           <span class="f341f0ad46--color_gray60_100--3VLtJ f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+            65
+           </span>
+          </div>
+          <div class="f341f0ad46--tab--jmTj9" data-name="Tab">
+           <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+            Архив
+           </span>
+           <span class="f341f0ad46--color_gray60_100--3VLtJ f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+            72
+           </span>
+          </div>
+         </div>
+         <div class="f341f0ad46--container--1mFuz" data-name="FiltersWrapper">
+          <div class="f341f0ad46--filters--1mRik">
+           <div class="f341f0ad46--item--2cLu2">
+            <div class="f341f0ad46--container--2xSR_" data-name="HideFromAgent">
+             <label class="f341f0ad46--checkbox--avY4t f341f0ad46--checkbox--1i-cD">
+              <input aria-hidden="true" class="f341f0ad46--input--165hK" type="checkbox"/>
+              <span class="f341f0ad46--box--3j1de f341f0ad46--box--1usiv">
+               <svg class="f341f0ad46--container--2qwwB f341f0ad46--display_inline-block--1720b f341f0ad46--color_current_color--2h-0z" color="current_color" fill="none" height="12" viewbox="0 0 12 12" width="12" xmlns="http://www.w3.org/2000/svg">
+                <g id="12x12/checkbox_sucess">
+                 <path clip-rule="evenodd" d="M4.31907 9.35444L5.12708 10L5.8143 9.22981L11 3.41805L9.37314 2L4.80191 7.12263L2.36361 5.03537L1 6.70268L4.31907 9.35444Z" fill="currentColor" fill-rule="evenodd" id="Shape">
+                 </path>
+                </g>
+               </svg>
+              </span>
+              <span class="f341f0ad46--label--2s_qZ">
+               Скрыть заявки от агентов
+              </span>
+             </label>
+            </div>
+           </div>
+           <div class="f341f0ad46--item--2cLu2">
+            <div class="f341f0ad46--dropdown--RSFft" data-name="DropdownWrapper" style="width:180px">
+             <div aria-haspopup="listbox" class="f341f0ad46--input_wrapper--3nv5E f341f0ad46--input_wrapper--1dtoG" role="button" style="cursor:pointer" tabindex="0">
+              <div class="f341f0ad46--children_wrapper--346Xg">
+               <input aria-hidden="true" class="f341f0ad46--input--165hK" tabindex="-1" value="any"/>
+               <div class="f341f0ad46--label-wrapper--I3UXG">
+                <div class="f341f0ad46--label--2HRup">
+                 Любая сделка
+                </div>
+               </div>
+              </div>
+              <span class="f341f0ad46--right_enhancer--3zGdb">
+               <div class="f341f0ad46--arrow--3HJ1h">
+                <svg class="f341f0ad46--container--2qwwB f341f0ad46--display_inline-block--1720b f341f0ad46--color_current_color--2h-0z" color="current_color" fill="none" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                 <g id="16x16/arrow_down_S">
+                  <path clip-rule="evenodd" d="M12.7072 6.70718L11.2929 5.29297L8.00005 8.58586L4.70715 5.29297L3.29294 6.70718L8.00005 11.4143L12.7072 6.70718Z" fill="currentColor" fill-rule="evenodd" id="Vector 132 (Stroke)">
+                  </path>
+                 </g>
+                </svg>
+               </div>
+              </span>
+             </div>
+            </div>
+           </div>
+           <div class="f341f0ad46--item--2cLu2">
+            <div class="f341f0ad46--dropdown--RSFft" data-name="DropdownWrapper" style="width:180px">
+             <div aria-haspopup="listbox" class="f341f0ad46--input_wrapper--3nv5E f341f0ad46--input_wrapper--1dtoG" role="button" style="cursor:pointer" tabindex="0">
+              <div class="f341f0ad46--children_wrapper--346Xg">
+               <input aria-hidden="true" class="f341f0ad46--input--165hK" tabindex="-1" value="any"/>
+               <div class="f341f0ad46--label-wrapper--I3UXG">
+                <div class="f341f0ad46--label--2HRup">
+                 Любая недвижимость
+                </div>
+               </div>
+              </div>
+              <span class="f341f0ad46--right_enhancer--3zGdb">
+               <div class="f341f0ad46--arrow--3HJ1h">
+                <svg class="f341f0ad46--container--2qwwB f341f0ad46--display_inline-block--1720b f341f0ad46--color_current_color--2h-0z" color="current_color" fill="none" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                 <g id="16x16/arrow_down_S">
+                  <path clip-rule="evenodd" d="M12.7072 6.70718L11.2929 5.29297L8.00005 8.58586L4.70715 5.29297L3.29294 6.70718L8.00005 11.4143L12.7072 6.70718Z" fill="currentColor" fill-rule="evenodd" id="Vector 132 (Stroke)">
+                  </path>
+                 </g>
+                </svg>
+               </div>
+              </span>
+             </div>
+            </div>
+           </div>
+           <div class="f341f0ad46--item--2cLu2">
+            <div class="f341f0ad46--dropdown--RSFft" data-name="DropdownWrapper" style="width:180px">
+             <div aria-haspopup="listbox" class="f341f0ad46--input_wrapper--3nv5E f341f0ad46--input_wrapper--1dtoG" role="button" style="cursor:pointer" tabindex="0">
+              <div class="f341f0ad46--children_wrapper--346Xg">
+               <input aria-hidden="true" class="f341f0ad46--input--165hK" tabindex="-1" value=""/>
+               <div class="f341f0ad46--placeholder--K-Q15">
+                Любые заявки
+               </div>
+              </div>
+              <span class="f341f0ad46--right_enhancer--3zGdb">
+               <div class="f341f0ad46--arrow--3HJ1h">
+                <svg class="f341f0ad46--container--2qwwB f341f0ad46--display_inline-block--1720b f341f0ad46--color_current_color--2h-0z" color="current_color" fill="none" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                 <g id="16x16/arrow_down_S">
+                  <path clip-rule="evenodd" d="M12.7072 6.70718L11.2929 5.29297L8.00005 8.58586L4.70715 5.29297L3.29294 6.70718L8.00005 11.4143L12.7072 6.70718Z" fill="currentColor" fill-rule="evenodd" id="Vector 132 (Stroke)">
+                  </path>
+                 </g>
+                </svg>
+               </div>
+              </span>
+             </div>
+            </div>
+           </div>
+           <div class="f341f0ad46--item--2cLu2">
+            <div class="f341f0ad46--container--1V-Sj" data-name="MoreFiltersBtn">
+             <button class="f341f0ad46--button--MAiHg f341f0ad46--button--aQGn7 f341f0ad46--XS--3YAjS f341f0ad46--button--7HYk0">
+              <span class="f341f0ad46--text--2P6bT">
+               Все фильтры
+              </span>
+             </button>
+            </div>
+           </div>
+           <div class="f341f0ad46--item--2cLu2">
+            <button class="f341f0ad46--button--MAiHg f341f0ad46--button--aQGn7 f341f0ad46--XS--3YAjS f341f0ad46--button--IypxH" data-name="SubmitContainer">
+             <span class="f341f0ad46--text--2P6bT">
+              Показать заявки
+             </span>
+            </button>
+           </div>
+          </div>
+         </div>
+         <div class="f341f0ad46--container--C0vL4" data-name="ActivePackage">
+          <div class="f341f0ad46--block--3NFL4">
+           <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+            Пакет заявок
+           </span>
+          </div>
+          <div class="f341f0ad46--block--3NFL4">
+           <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_22px--2Pr_0 f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_16px--1mDFP f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+            Осталось заявок:
+           </span>
+           <div class="f341f0ad46--value--LyozI">
+            <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+             26
+             <!-- -->
+             из
+             <!-- -->
+             100
+            </span>
+           </div>
+          </div>
+          <div class="f341f0ad46--block--3NFL4">
+           <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_22px--2Pr_0 f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_16px--1mDFP f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+            Срок действия:
+           </span>
+           <div class="f341f0ad46--value--LyozI">
+            <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+             до
+             <!-- -->
+             6 июня
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="f341f0ad46--container--3YMO-" data-name="ListingWrapper">
+          <div class="f341f0ad46--lead-item--AgRi4" data-name="LeadsCardsWrapper">
+           <div class="f341f0ad46--container--n4AuU f341f0ad46--viewed--1kTfG" data-name="LeadsCard">
+            <div class="f341f0ad46--one-column--2nRdB">
+             <div class="f341f0ad46--top--1xG88 f341f0ad46--offer-base-info--16BXT">
+              <div class="f341f0ad46--container--1yzcw" data-name="DealType">
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Снять
+               </span>
+              </div>
+              <div class="f341f0ad46--container--3wwyZ" data-name="OfferType">
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Коммерческая
+               </span>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+            <div class="f341f0ad46--two-column--3gCRv">
+             <div class="f341f0ad46--top--1xG88">
+              <div class="f341f0ad46--left--SYG1U">
+               <div class="f341f0ad46--container--2VBG4" data-name="ObjectType">
+                <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 Торговая площадь
+                </span>
+               </div>
+               <div class="f341f0ad46--container--1uGwa" data-name="OfferParameters">
+                <span class="f341f0ad46--parameter--1UDXi">
+                 <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                  до 1 м²
+                 </span>
+                </span>
+               </div>
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" data-name="OfferPrice" style="letter-spacing:normal">
+                до 5 000 ₽/мес.
+               </span>
+              </div>
+              <div class="f341f0ad46--right--1gUqg">
+               <div class="f341f0ad46--container--2IJCh" data-name="MainGeoHeader">
+                <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 Екатеринбург
+                </span>
+               </div>
+               <div>
+               </div>
+               <div>
+               </div>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+            <div class="f341f0ad46--three-column--3gA7K">
+             <div>
+              <div class="f341f0ad46--top--1xG88">
+               <button class="f341f0ad46--button--MAiHg f341f0ad46--button--aQGn7 f341f0ad46--XS--3YAjS f341f0ad46--button--iUKPD" data-name="OpenLead">
+                <span class="f341f0ad46--text--2P6bT">
+                 Открыть заявку
+                </span>
+               </button>
+              </div>
+              <div class="f341f0ad46--second-info--1bJyg">
+               <div class="f341f0ad46--container--C4koc" data-name="SecondInfo">
+                <span class="f341f0ad46--color_black_40--11n0l f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 22 мая 11:59
+                </span>
+               </div>
+               <div class="f341f0ad46--container--C4koc" data-name="SecondInfo">
+                <span class="f341f0ad46--color_black_40--11n0l f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 1 просмотр
+                </span>
+               </div>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="f341f0ad46--lead-item--AgRi4" data-name="LeadsCardsWrapper">
+           <div class="f341f0ad46--container--n4AuU f341f0ad46--viewed--1kTfG" data-name="LeadsCard">
+            <div class="f341f0ad46--one-column--2nRdB">
+             <div class="f341f0ad46--top--1xG88 f341f0ad46--offer-base-info--16BXT">
+              <div class="f341f0ad46--container--1yzcw" data-name="DealType">
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Снять
+               </span>
+              </div>
+              <div class="f341f0ad46--container--3wwyZ" data-name="OfferType">
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Коммерческая
+               </span>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+            <div class="f341f0ad46--two-column--3gCRv">
+             <div class="f341f0ad46--top--1xG88">
+              <div class="f341f0ad46--left--SYG1U">
+               <div class="f341f0ad46--container--2VBG4" data-name="ObjectType">
+                <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 Офис
+                </span>
+               </div>
+               <div class="f341f0ad46--container--1uGwa" data-name="OfferParameters">
+                <span class="f341f0ad46--parameter--1UDXi">
+                 <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                  41—42 м²
+                 </span>
+                </span>
+               </div>
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" data-name="OfferPrice" style="letter-spacing:normal">
+                20 700 ₽/мес.
+               </span>
+              </div>
+              <div class="f341f0ad46--right--1gUqg">
+               <div class="f341f0ad46--container--2IJCh" data-name="MainGeoHeader">
+                <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 Екатеринбург
+                </span>
+               </div>
+               <div>
+                <div class="f341f0ad46--container--SauCs" data-name="GeoAddress">
+                 <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                  Ленинский, Центр
+                 </span>
+                </div>
+               </div>
+               <div>
+                <span class="f341f0ad46--item--3A_BI" data-name="Metro">
+                 <span class="f341f0ad46--icon--2qGJH" style="color:#00701A">
+                  <svg class="f341f0ad46--container--2qwwB f341f0ad46--display_inline-block--1720b f341f0ad46--color_current_color--2h-0z" color="current_color" data-name="getMetroIcon" fill="none" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                   <g id="16x16/metro_ekb">
+                    <path clip-rule="evenodd" d="M2 2L7.895 8.316H8.105L14 2V7.474L8.105 13.579H7.895L2 7.474V2ZM2 8.737L6.21 13.157V14H2V8.737ZM14 8.737V14H9.79V13.158L14 8.737Z" fill="currentColor" fill-rule="evenodd" id="Vector">
+                    </path>
+                   </g>
+                  </svg>
+                 </span>
+                 <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                  Площадь 1905 года
+                 </span>
+                </span>
+                <span class="f341f0ad46--item--3A_BI" data-name="Metro">
+                 <span class="f341f0ad46--icon--2qGJH" style="color:#00701A">
+                  <svg class="f341f0ad46--container--2qwwB f341f0ad46--display_inline-block--1720b f341f0ad46--color_current_color--2h-0z" color="current_color" data-name="getMetroIcon" fill="none" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                   <g id="16x16/metro_ekb">
+                    <path clip-rule="evenodd" d="M2 2L7.895 8.316H8.105L14 2V7.474L8.105 13.579H7.895L2 7.474V2ZM2 8.737L6.21 13.157V14H2V8.737ZM14 8.737V14H9.79V13.158L14 8.737Z" fill="currentColor" fill-rule="evenodd" id="Vector">
+                    </path>
+                   </g>
+                  </svg>
+                 </span>
+                 <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                  Геологическая
+                 </span>
+                </span>
+               </div>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+            <div class="f341f0ad46--three-column--3gA7K">
+             <div>
+              <div class="f341f0ad46--top--1xG88">
+               <button class="f341f0ad46--button--MAiHg f341f0ad46--button--aQGn7 f341f0ad46--XS--3YAjS f341f0ad46--button--iUKPD" data-name="OpenLead">
+                <span class="f341f0ad46--text--2P6bT">
+                 Открыть заявку
+                </span>
+               </button>
+              </div>
+              <div class="f341f0ad46--second-info--1bJyg">
+               <div class="f341f0ad46--container--C4koc" data-name="SecondInfo">
+                <span class="f341f0ad46--color_black_40--11n0l f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 21 мая 16:15
+                </span>
+               </div>
+               <div class="f341f0ad46--container--C4koc" data-name="SecondInfo">
+                <span class="f341f0ad46--color_black_40--11n0l f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 1 просмотр
+                </span>
+               </div>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="f341f0ad46--lead-item--AgRi4" data-name="LeadsCardsWrapper">
+           <div class="f341f0ad46--container--n4AuU f341f0ad46--viewed--1kTfG" data-name="LeadsCard">
+            <div class="f341f0ad46--one-column--2nRdB">
+             <div class="f341f0ad46--top--1xG88 f341f0ad46--offer-base-info--16BXT">
+              <div class="f341f0ad46--container--1yzcw" data-name="DealType">
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Купить
+               </span>
+              </div>
+              <div class="f341f0ad46--container--3wwyZ" data-name="OfferType">
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Загородная
+               </span>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+            <div class="f341f0ad46--two-column--3gCRv">
+             <div class="f341f0ad46--top--1xG88">
+              <div class="f341f0ad46--left--SYG1U">
+               <div class="f341f0ad46--container--2VBG4" data-name="ObjectType">
+                <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 Участок
+                </span>
+               </div>
+               <div class="f341f0ad46--container--1uGwa" data-name="OfferParameters">
+               </div>
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" data-name="OfferPrice" style="letter-spacing:normal">
+               </span>
+              </div>
+              <div class="f341f0ad46--right--1gUqg">
+               <div class="f341f0ad46--container--2IJCh" data-name="MainGeoHeader">
+                <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 Екатеринбург
+                </span>
+               </div>
+               <div>
+                <div class="f341f0ad46--container--SauCs" data-name="GeoAddress">
+                 <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                  Совхоз
+                 </span>
+                </div>
+               </div>
+               <div>
+               </div>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+            <div class="f341f0ad46--three-column--3gA7K">
+             <div>
+              <div class="f341f0ad46--top--1xG88">
+               <button class="f341f0ad46--button--MAiHg f341f0ad46--button--aQGn7 f341f0ad46--XS--3YAjS f341f0ad46--button--iUKPD" data-name="OpenLead">
+                <span class="f341f0ad46--text--2P6bT">
+                 Открыть заявку
+                </span>
+               </button>
+              </div>
+              <div class="f341f0ad46--second-info--1bJyg">
+               <div class="f341f0ad46--container--C4koc" data-name="SecondInfo">
+                <span class="f341f0ad46--color_black_40--11n0l f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 21 мая 08:21
+                </span>
+               </div>
+               <div class="f341f0ad46--container--C4koc" data-name="SecondInfo">
+                <span class="f341f0ad46--color_black_40--11n0l f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 17 просмотров
+                </span>
+               </div>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="f341f0ad46--lead-item--AgRi4" data-name="LeadsCardsWrapper">
+           <div class="f341f0ad46--container--n4AuU f341f0ad46--viewed--1kTfG" data-name="LeadsCard">
+            <div class="f341f0ad46--one-column--2nRdB">
+             <div class="f341f0ad46--top--1xG88 f341f0ad46--offer-base-info--16BXT">
+              <div class="f341f0ad46--container--1yzcw" data-name="DealType">
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Снять
+               </span>
+              </div>
+              <div class="f341f0ad46--container--3wwyZ" data-name="OfferType">
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Коммерческая
+               </span>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+            <div class="f341f0ad46--two-column--3gCRv">
+             <div class="f341f0ad46--top--1xG88">
+              <div class="f341f0ad46--left--SYG1U">
+               <div class="f341f0ad46--container--2VBG4" data-name="ObjectType">
+                <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 Псн
+                </span>
+               </div>
+               <div class="f341f0ad46--container--1uGwa" data-name="OfferParameters">
+                <span class="f341f0ad46--parameter--1UDXi">
+                 <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                  77 м²
+                 </span>
+                </span>
+               </div>
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" data-name="OfferPrice" style="letter-spacing:normal">
+               </span>
+              </div>
+              <div class="f341f0ad46--right--1gUqg">
+               <div class="f341f0ad46--container--2IJCh" data-name="MainGeoHeader">
+                <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 Екатеринбург
+                </span>
+               </div>
+               <div>
+               </div>
+               <div>
+                <span class="f341f0ad46--item--3A_BI" data-name="Metro">
+                 <span class="f341f0ad46--icon--2qGJH" style="color:#00701A">
+                  <svg class="f341f0ad46--container--2qwwB f341f0ad46--display_inline-block--1720b f341f0ad46--color_current_color--2h-0z" color="current_color" data-name="getMetroIcon" fill="none" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                   <g id="16x16/metro_ekb">
+                    <path clip-rule="evenodd" d="M2 2L7.895 8.316H8.105L14 2V7.474L8.105 13.579H7.895L2 7.474V2ZM2 8.737L6.21 13.157V14H2V8.737ZM14 8.737V14H9.79V13.158L14 8.737Z" fill="currentColor" fill-rule="evenodd" id="Vector">
+                    </path>
+                   </g>
+                  </svg>
+                 </span>
+                 <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                  Ботаническая
+                 </span>
+                </span>
+               </div>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+            <div class="f341f0ad46--three-column--3gA7K">
+             <div>
+              <div class="f341f0ad46--top--1xG88">
+               <button class="f341f0ad46--button--MAiHg f341f0ad46--button--aQGn7 f341f0ad46--XS--3YAjS f341f0ad46--button--iUKPD" data-name="OpenLead">
+                <span class="f341f0ad46--text--2P6bT">
+                 Открыть заявку
+                </span>
+               </button>
+              </div>
+              <div class="f341f0ad46--second-info--1bJyg">
+               <div class="f341f0ad46--container--C4koc" data-name="SecondInfo">
+                <span class="f341f0ad46--color_black_40--11n0l f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 21 мая 07:57
+                </span>
+               </div>
+               <div class="f341f0ad46--container--C4koc" data-name="SecondInfo">
+                <span class="f341f0ad46--color_black_40--11n0l f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 2 просмотра
+                </span>
+               </div>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="f341f0ad46--lead-item--AgRi4" data-name="LeadsCardsWrapper">
+           <div class="f341f0ad46--container--n4AuU f341f0ad46--viewed--1kTfG" data-name="LeadsCard">
+            <div class="f341f0ad46--one-column--2nRdB">
+             <div class="f341f0ad46--top--1xG88 f341f0ad46--offer-base-info--16BXT">
+              <div class="f341f0ad46--container--1yzcw" data-name="DealType">
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Продать
+               </span>
+              </div>
+              <div class="f341f0ad46--container--3wwyZ" data-name="OfferType">
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Загородная
+               </span>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+            <div class="f341f0ad46--two-column--3gCRv">
+             <div class="f341f0ad46--top--1xG88">
+              <div class="f341f0ad46--left--SYG1U">
+               <div class="f341f0ad46--container--2VBG4" data-name="ObjectType">
+                <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 Участок
+                </span>
+               </div>
+               <div class="f341f0ad46--container--1uGwa" data-name="OfferParameters">
+               </div>
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" data-name="OfferPrice" style="letter-spacing:normal">
+                2,1 млн ₽
+               </span>
+              </div>
+              <div class="f341f0ad46--right--1gUqg">
+               <div class="f341f0ad46--container--2IJCh" data-name="MainGeoHeader">
+                <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 Екатеринбург
+                </span>
+               </div>
+               <div>
+               </div>
+               <div>
+                <span class="f341f0ad46--item--3A_BI" data-name="Metro">
+                 <span class="f341f0ad46--icon--2qGJH" style="color:#00701A">
+                  <svg class="f341f0ad46--container--2qwwB f341f0ad46--display_inline-block--1720b f341f0ad46--color_current_color--2h-0z" color="current_color" data-name="getMetroIcon" fill="none" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                   <g id="16x16/metro_ekb">
+                    <path clip-rule="evenodd" d="M2 2L7.895 8.316H8.105L14 2V7.474L8.105 13.579H7.895L2 7.474V2ZM2 8.737L6.21 13.157V14H2V8.737ZM14 8.737V14H9.79V13.158L14 8.737Z" fill="currentColor" fill-rule="evenodd" id="Vector">
+                    </path>
+                   </g>
+                  </svg>
+                 </span>
+                 <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                  Ботаническая
+                 </span>
+                </span>
+               </div>
+              </div>
+             </div>
+             <div>
+              <span class="f341f0ad46--tag--2TeU5 f341f0ad46--secondaryGreen--2oFWd">
+               <span class="f341f0ad46--color_current_color--2h-0z f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing: normal;">
+                Собственник
+               </span>
+              </span>
+             </div>
+            </div>
+            <div class="f341f0ad46--three-column--3gA7K">
+             <div>
+              <div class="f341f0ad46--top--1xG88">
+               <button class="f341f0ad46--button--MAiHg f341f0ad46--button--aQGn7 f341f0ad46--XS--3YAjS f341f0ad46--button--iUKPD" data-name="OpenLead">
+                <span class="f341f0ad46--text--2P6bT">
+                 Открыть заявку
+                </span>
+               </button>
+              </div>
+              <div class="f341f0ad46--second-info--1bJyg">
+               <div class="f341f0ad46--container--C4koc" data-name="SecondInfo">
+                <span class="f341f0ad46--color_black_40--11n0l f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 17 мая 20:12
+                </span>
+               </div>
+               <div class="f341f0ad46--container--C4koc" data-name="SecondInfo">
+                <span class="f341f0ad46--color_black_40--11n0l f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 24 просмотра
+                </span>
+               </div>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="f341f0ad46--lead-item--AgRi4" data-name="LeadsCardsWrapper">
+           <div class="f341f0ad46--container--n4AuU f341f0ad46--viewed--1kTfG" data-name="LeadsCard">
+            <div class="f341f0ad46--one-column--2nRdB">
+             <div class="f341f0ad46--top--1xG88 f341f0ad46--offer-base-info--16BXT">
+              <div class="f341f0ad46--container--1yzcw" data-name="DealType">
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Купить
+               </span>
+              </div>
+              <div class="f341f0ad46--container--3wwyZ" data-name="OfferType">
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Коммерческая
+               </span>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+            <div class="f341f0ad46--two-column--3gCRv">
+             <div class="f341f0ad46--top--1xG88">
+              <div class="f341f0ad46--left--SYG1U">
+               <div class="f341f0ad46--container--2VBG4" data-name="ObjectType">
+                <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 Гараж
+                </span>
+               </div>
+               <div class="f341f0ad46--container--1uGwa" data-name="OfferParameters">
+               </div>
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" data-name="OfferPrice" style="letter-spacing:normal">
+               </span>
+              </div>
+              <div class="f341f0ad46--right--1gUqg">
+               <div class="f341f0ad46--container--2IJCh" data-name="MainGeoHeader">
+                <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 Эльмаш мкр
+                </span>
+               </div>
+               <div>
+                <div class="f341f0ad46--container--SauCs" data-name="GeoAddress">
+                 <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                  Орджоникидзевский
+                 </span>
+                </div>
+               </div>
+               <div>
+               </div>
+              </div>
+             </div>
+             <div>
+             </div>
+            </div>
+            <div class="f341f0ad46--three-column--3gA7K">
+             <div>
+              <div class="f341f0ad46--top--1xG88">
+               <button class="f341f0ad46--button--MAiHg f341f0ad46--button--aQGn7 f341f0ad46--XS--3YAjS f341f0ad46--button--iUKPD" data-name="OpenLead">
+                <span class="f341f0ad46--text--2P6bT">
+                 Открыть заявку
+                </span>
+               </button>
+              </div>
+              <div class="f341f0ad46--second-info--1bJyg">
+               <div class="f341f0ad46--container--C4koc" data-name="SecondInfo">
+                <span class="f341f0ad46--color_black_40--11n0l f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 16 мая 14:27
+                </span>
+               </div>
+               <div class="f341f0ad46--container--C4koc" data-name="SecondInfo">
+                <span class="f341f0ad46--color_black_40--11n0l f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 14 просмотров
+                </span>
+               </div>
+              </div>
+             </div>
+             <div>
+              <div class="f341f0ad46--container--3GwYm" data-name="EndDate">
+               <span class="f341f0ad46--icon--19Kjz">
+                <svg data-name="IconFire" fill="none" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                 <g clip-path="url(#IconFireClip)">
+                  <path d="M13.044 7.29c-.204-.268-.444-.499-.675-.73-.578-.533-1.245-.915-1.805-1.475C9.266 3.787 9 1.645 9.81 0c-.81.204-1.556.667-2.178 1.173-2.258 1.85-3.147 5.112-2.08 7.912.035.089.07.177.07.293a.493.493 0 01-.31.444c-.196.09-.41.036-.57-.106a.737.737 0 01-.133-.151c-.977-1.271-1.137-3.094-.47-4.552-1.459 1.21-2.25 3.254-2.125 5.183.035.444.089.889.24 1.333a5.42 5.42 0 00.64 1.538c.924 1.538 2.551 2.64 4.302 2.862 1.867.24 3.867-.106 5.298-1.422 1.6-1.476 2.178-3.84 1.333-5.867l-.115-.23A4.3 4.3 0 0013 7.297l.044-.009zm-2.755 5.6a2.92 2.92 0 01-.96.533c-.978.355-1.956-.143-2.552-.73 1.058-.248 1.68-1.03 1.858-1.822.151-.71-.124-1.297-.24-1.982-.106-.658-.089-1.218.16-1.831.151.338.33.676.534.942.675.89 1.733 1.28 1.955 2.49.036.124.053.248.053.381.027.73-.284 1.53-.817 2.018h.009z" fill="#FF1F34">
+                  </path>
+                 </g>
+                 <defs>
+                  <clippath id="IconFireClip">
+                   <path d="M0 0h16v16H0z" fill="#fff">
+                   </path>
+                  </clippath>
+                 </defs>
+                </svg>
+               </span>
+               <span class="f341f0ad46--color_error_100--1Hsg_ f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Завтра заявка сгорит
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="f341f0ad46--lead-item--AgRi4" data-name="LeadsCardsWrapper">
+           <div class="f341f0ad46--container--n4AuU f341f0ad46--viewed--1kTfG" data-name="LeadsCard">
+            <div class="f341f0ad46--one-column--2nRdB">
+             <div class="f341f0ad46--top--1xG88 f341f0ad46--offer-base-info--16BXT">
+              <div class="f341f0ad46--container--1yzcw" data-name="DealType">
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Продать
+               </span>
+              </div>
+              <div class="f341f0ad46--container--3wwyZ" data-name="OfferType">
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Коммерческая
+               </span>
+              </div>
+             </div>
+             <div>
+              <div class="f341f0ad46--container--n_jCo" data-name="Urgently">
+               <span class="f341f0ad46--icon--epGuc">
+                <svg data-name="IconLightning" fill="none" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M8 0C3.583 0 0 3.583 0 8s3.583 8 8 8 8-3.583 8-8-3.583-8-8-8zm-.417 14.413V9.395h-2.79l4.009-7.808v5.018h2.685l-3.904 7.808z" fill="#FF1F34">
+                 </path>
+                </svg>
+               </span>
+               <span class="f341f0ad46--color_error_100--1Hsg_ f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Срочно, 3 мес.
+               </span>
+              </div>
+             </div>
+            </div>
+            <div class="f341f0ad46--two-column--3gCRv">
+             <div class="f341f0ad46--top--1xG88">
+              <div class="f341f0ad46--left--SYG1U">
+               <div class="f341f0ad46--container--2VBG4" data-name="ObjectType">
+                <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 Готовый бизнес
+                </span>
+               </div>
+               <div class="f341f0ad46--container--1uGwa" data-name="OfferParameters">
+               </div>
+               <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" data-name="OfferPrice" style="letter-spacing:normal">
+                500 000 ₽
+               </span>
+              </div>
+              <div class="f341f0ad46--right--1gUqg">
+               <div class="f341f0ad46--container--2IJCh" data-name="MainGeoHeader">
+                <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_24px--liNgA f341f0ad46--fontWeight_bold--t3Ars f341f0ad46--fontSize_18px--1W9o2 f341f0ad46--display_block--1eYsq f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 ЖБИ мкр
+                </span>
+               </div>
+               <div>
+                <div class="f341f0ad46--container--SauCs" data-name="GeoAddress">
+                 <span class="f341f0ad46--color_black_100--A_xYw f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                  Кировский
+                 </span>
+                </div>
+               </div>
+               <div>
+               </div>
+              </div>
+             </div>
+             <div>
+              <span class="f341f0ad46--tag--2TeU5 f341f0ad46--secondaryGray--1wu0o">
+               <span class="f341f0ad46--color_current_color--2h-0z f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing: normal;">
+                Агент
+               </span>
+              </span>
+              <span class="f341f0ad46--tag--2TeU5 f341f0ad46--secondaryGreen--2oFWd">
+               <span class="f341f0ad46--color_current_color--2h-0z f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing: normal;">
+                Готов пересмотреть цену
+               </span>
+              </span>
+              <span class="f341f0ad46--tag--2TeU5 f341f0ad46--secondaryGreen--2oFWd">
+               <span class="f341f0ad46--color_current_color--2h-0z f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing: normal;">
+                Есть объявление
+               </span>
+              </span>
+             </div>
+            </div>
+            <div class="f341f0ad46--three-column--3gA7K">
+             <div>
+              <div class="f341f0ad46--top--1xG88">
+               <button class="f341f0ad46--button--MAiHg f341f0ad46--button--aQGn7 f341f0ad46--XS--3YAjS f341f0ad46--button--iUKPD" data-name="OpenLead">
+                <span class="f341f0ad46--text--2P6bT">
+                 Открыть заявку
+                </span>
+               </button>
+              </div>
+              <div class="f341f0ad46--second-info--1bJyg">
+               <div class="f341f0ad46--container--C4koc" data-name="SecondInfo">
+                <span class="f341f0ad46--color_black_40--11n0l f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 16 мая 10:16
+                </span>
+               </div>
+               <div class="f341f0ad46--container--C4koc" data-name="SecondInfo">
+                <span class="f341f0ad46--color_black_40--11n0l f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                 22 просмотра
+                </span>
+               </div>
+              </div>
+             </div>
+             <div>
+              <div class="f341f0ad46--container--3GwYm" data-name="EndDate">
+               <span class="f341f0ad46--icon--19Kjz">
+                <svg data-name="IconFire" fill="none" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                 <g clip-path="url(#IconFireClip)">
+                  <path d="M13.044 7.29c-.204-.268-.444-.499-.675-.73-.578-.533-1.245-.915-1.805-1.475C9.266 3.787 9 1.645 9.81 0c-.81.204-1.556.667-2.178 1.173-2.258 1.85-3.147 5.112-2.08 7.912.035.089.07.177.07.293a.493.493 0 01-.31.444c-.196.09-.41.036-.57-.106a.737.737 0 01-.133-.151c-.977-1.271-1.137-3.094-.47-4.552-1.459 1.21-2.25 3.254-2.125 5.183.035.444.089.889.24 1.333a5.42 5.42 0 00.64 1.538c.924 1.538 2.551 2.64 4.302 2.862 1.867.24 3.867-.106 5.298-1.422 1.6-1.476 2.178-3.84 1.333-5.867l-.115-.23A4.3 4.3 0 0013 7.297l.044-.009zm-2.755 5.6a2.92 2.92 0 01-.96.533c-.978.355-1.956-.143-2.552-.73 1.058-.248 1.68-1.03 1.858-1.822.151-.71-.124-1.297-.24-1.982-.106-.658-.089-1.218.16-1.831.151.338.33.676.534.942.675.89 1.733 1.28 1.955 2.49.036.124.053.248.053.381.027.73-.284 1.53-.817 2.018h.009z" fill="#FF1F34">
+                  </path>
+                 </g>
+                 <defs>
+                  <clippath id="IconFireClip">
+                   <path d="M0 0h16v16H0z" fill="#fff">
+                   </path>
+                  </clippath>
+                 </defs>
+                </svg>
+               </span>
+               <span class="f341f0ad46--color_error_100--1Hsg_ f341f0ad46--lineHeight_20px--2dV2a f341f0ad46--fontWeight_normal--2G6_P f341f0ad46--fontSize_14px--10R7l f341f0ad46--display_inline--2gjyY f341f0ad46--text--2_SER" style="letter-spacing:normal">
+                Завтра заявка сгорит
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="f341f0ad46--footer--3c6Qn">
+        <div class="f341f0ad46--footer--1i5tR" data-name="Footer">
+         <div class="f341f0ad46--footer__container--1JxCs">
+          <div>
+           ©
+           <!-- -->
+           2021
+           <!-- -->
+           ЦИАН ГРУПП
+          </div>
+          <div>
+           <a class="f341f0ad46--footer__agreement--3i16W" data-mark="link|footer|agreement" href="https://www.cian.ru/help/about/oferta-natural/" rel="noopener noreferrer" target="_blank">
+            Лицензионное соглашение
+           </a>
+          </div>
+          <div class="f341f0ad46--footer__mobile-apps--2QKF9">
+           <div>
+            Мобильное приложение:
+           </div>
+           <a class="f341f0ad46--footer__app--23SWM" data-mark="link|footer|ios" href="http://itunes.apple.com/app/id911804296" rel="noopener noreferrer" target="_blank">
+            <span class="f341f0ad46--icon--10Flw f341f0ad46--footer__store-icon--3HrVv f341f0ad46--footer__store-icon_apple--Vd74B" data-mark="icon|apple" data-name="Icon">
+             <svg height="23" preserveaspectratio="xMidYMid" viewbox="0 0 18 23" width="18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path d="M15.026,12.189 C15.026,15.670 18.000,16.869 18.000,16.869 C18.000,16.869 15.921,22.966 13.112,22.966 C11.822,22.966 10.819,22.061 9.460,22.061 C8.075,22.061 6.700,23.000 5.805,23.000 C3.240,23.000 0.000,17.217 0.000,12.568 C0.000,7.994 2.743,5.595 5.315,5.595 C6.987,5.595 8.285,6.599 9.155,6.599 C9.901,6.599 11.286,5.531 13.089,5.531 C16.192,5.531 17.413,7.831 17.413,7.831 C17.413,7.831 15.026,9.103 15.026,12.189 ZM8.970,5.288 C8.970,5.288 8.642,3.773 9.932,2.002 C11.382,0.010 13.399,0.000 13.399,0.000 C13.399,0.000 13.699,1.873 12.258,3.677 C10.719,5.603 8.970,5.288 8.970,5.288 Z" fill-rule="evenodd">
+              </path>
+             </svg>
+            </span>
+            <span class="f341f0ad46--footer__store-name--1PYVR">
+             iOS
+            </span>
+           </a>
+           <a class="f341f0ad46--footer__app--23SWM" data-mark="link|footer|android" href="http://play.google.com/store/apps/details?id=ru.cian.main" rel="noopener noreferrer" target="_blank">
+            <span class="f341f0ad46--icon--10Flw f341f0ad46--footer__store-icon--3HrVv f341f0ad46--footer__store-icon_android--uNmCd" data-mark="icon|android" data-name="Icon">
+             <svg height="22" preserveaspectratio="xMidYMid" viewbox="0 0 20 22" width="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path d="M10.000,1.315 C10.908,1.315 11.769,1.475 12.541,1.760 L13.678,0.089 C13.739,-0.000 13.865,-0.026 13.959,0.032 C14.053,0.091 14.079,0.211 14.018,0.300 L12.921,1.913 C14.736,2.713 15.973,4.234 16.009,5.986 L3.991,5.986 C4.027,4.234 5.264,2.713 7.079,1.913 L5.982,0.300 C5.921,0.211 5.947,0.091 6.041,0.032 C6.135,-0.026 6.261,-0.000 6.322,0.089 L7.459,1.760 C8.231,1.475 9.092,1.315 10.000,1.315 L10.000,1.315 ZM8.910,17.729 L8.910,20.675 C8.910,21.404 8.306,22.000 7.568,22.000 L7.568,22.000 C6.830,22.000 6.226,21.404 6.226,20.675 L6.226,17.729 L5.100,17.729 C4.502,17.729 4.013,17.247 4.013,16.657 L4.013,7.001 L15.987,7.001 L15.987,16.657 C15.987,17.247 15.498,17.729 14.901,17.729 L13.775,17.729 L13.775,20.675 C13.775,21.404 13.170,22.000 12.432,22.000 L12.432,22.000 C11.694,22.000 11.090,21.404 11.090,20.675 L11.090,17.729 L8.910,17.729 L8.910,17.729 ZM1.499,7.016 L1.499,7.016 C2.323,7.016 2.997,7.616 2.997,8.349 L2.997,13.681 C2.997,14.414 2.323,15.014 1.499,15.014 L1.499,15.014 C0.674,15.014 0.000,14.414 0.000,13.681 L0.000,8.349 C0.000,7.616 0.674,7.016 1.499,7.016 L1.499,7.016 ZM18.502,7.016 L18.502,7.016 C19.326,7.016 20.000,7.616 20.000,8.349 L20.000,13.681 C20.000,14.414 19.326,15.014 18.502,15.014 L18.502,15.014 C17.677,15.014 17.003,14.414 17.003,13.681 L17.003,8.349 C17.003,7.616 17.677,7.016 18.502,7.016 L18.502,7.016 ZM7.916,3.154 C8.296,3.154 8.604,3.459 8.604,3.834 C8.604,4.210 8.296,4.514 7.916,4.514 C7.536,4.514 7.228,4.210 7.228,3.834 C7.228,3.459 7.536,3.154 7.916,3.154 L7.916,3.154 ZM12.084,3.154 C12.464,3.154 12.772,3.459 12.772,3.834 C12.772,4.210 12.464,4.514 12.084,4.514 C11.704,4.514 11.397,4.210 11.397,3.834 C11.397,3.459 11.704,3.154 12.084,3.154 L12.084,3.154 Z" fill-rule="evenodd">
+              </path>
+             </svg>
+            </span>
+            <span class="f341f0ad46--footer__store-name--1PYVR">
+             Android
+            </span>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </main>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript">
+   window._cianConfig = window._cianConfig || {};
+window._cianConfig['leads-listing-frontend'] = [{"key":"projectName","value":"leads-listing-frontend","priority":1000,"filter":{}},{"key":"mcsRunEnv","value":"PROD","priority":1000,"filter":{}},{"key":"mcsRunEnvType","value":"prod","priority":1000,"filter":{}},{"key":"version","value":"[leads-listing-frontend][CD-105442][c7533181]","priority":1000,"filter":{}},{"key":"logger.browser.baseUrl","value":"https:\u002F\u002Fwww.cian.ru\u002F","priority":51,"filter":{}},{"key":"logger.browser.pathApi","value":"\u002Fajax\u002Flog-error\u002F","priority":50,"filter":{}},{"key":"web.manifest.assetsBaseUrl","value":"\u002F\u002Fcdn.cian.site\u002Ffrontend\u002Fleads-listing-frontend\u002F","priority":0,"filter":{}},{"key":"web.mcsRunEnv","value":"PROD","priority":0,"filter":{}},{"key":"soprApi.browserUrl","value":"https:\u002F\u002Fsopr-api.cian.ru\u002F","priority":0,"filter":{}},{"key":"cianHost","value":"https:\u002F\u002Fwww.cian.ru","priority":100500,"filter":{}},{"key":"appHost","value":"https:\u002F\u002Fmy.cian.ru","priority":100500,"filter":{}},{"key":"leadsListing.MainFiltersSequence","value":["hideAgentDemands","dealType","offerType","leadType"],"priority":0,"filter":{}},{"key":"monolithCianRealty.browserUrl","value":"http:\u002F\u002Fmaster.dev3.cian.ru\u002F","priority":0,"filter":{}},{"key":"valuation.YandexApiKey","value":"9f0ab59a-6b16-44e3-b61a-c3e06ed6be7e","priority":5,"filter":{}},{"key":"demand.browserUrl","value":"https:\u002F\u002Fapi.cian.ru\u002Fdemand\u002F","priority":100501,"filter":{}},{"key":"geoTempLayer.browserUrl","value":"https:\u002F\u002Fapi.cian.ru\u002Fgeo-temp-layer\u002F","priority":30,"filter":{}},{"key":"initialState","value":{"config":{"cianHost":"https:\u002F\u002Fwww.cian.ru","appHost":"https:\u002F\u002Fmy.cian.ru","isDemandAvailable":0,"isDemandLeadsAvailable":true},"account":{"can_be_detached":false,"is_agent":true,"statistics_allowed":true,"replenish_disabled":false,"fair_play":{"status":"joined"},"is_sub_agent":false,"can_show_messaging_settings":true,"is_builders_balance_enabled":false,"is_user_archive":true,"is_fairplay_request_enabled":true,"enabled_services":{"can_use_hidden_base":true,"phoneChanging":false,"service_packages":true,"uploads":false,"callTracking":false},"is_private_broker":false,"email":{"confirmed":"True","email":"info@anberloga.ru"},"is_messaging_email_confirmed":true,"has_blocked_sanction":false,"profile":{"fullname":"БЕРЛОГА","id":19394474,"realty_id":19394474},"is_identified":true,"account_type":"agency","ab_group":98,"is_messaging_enabled":false,"is_master_agent":true,"subscribed_weekly_report":true,"current_messaging_email":"info@anberloga.ru","unconfirmed_messaging_email":null,"is_developer":false,"is_email_confirmation_sent":false,"is_calltracking_statistic":true,"sanctions":[],"is_flat_tour_booking_enabled":false,"are_invoices_enabled":true},"counters":{"complaints":0,"my_offers":{"rent":{"flat":{"active":0,"inactive":0},"suburban":{"active":0,"inactive":0},"commercial":{"active":3,"inactive":0}},"sale":{"flat":{"active":2,"inactive":0},"suburban":{"active":7,"inactive":0},"commercial":{"active":7,"inactive":0}}},"saved_searches":0,"favorites":0},"billing":{"credit_activated":true,"tariff":{"location":4612,"name":"Базовый (Свердловская область)","id":2},"documents_delivery":{"delivery_type":"no_delivery","post_address":null,"post_name":null},"credit_user":false,"last_invoice_data":{"inn":"665902174295","company_title":"Индивидуальный предприниматель Киселев Андрей Геннадьевич"},"balance":"1669.39","type":"natural"},"profile":{"office_name":null,"draft_profile":{"website":"anberloga.ru","realty_locations":null,"first_name":null,"last_name":null,"account_type":"agency","description":"Агентство недвижимости \"Берлога\" (ИП Киселев А.Г.) работает на рынке недвижимости с 2015 года.\n   Мы решаем все вопросы, связанные с недвижимостью, в Екатеринбурге и пригороде.  \n   Наши сотрудники трудоустроены в штат компании и постоянно совершенствуют свой профессиональный уровень.\n   Формат небольшого агентства позволяет нам хорошо контролировать соблюдение стандартов работы каждого специалиста. \n   Партнёры, работающие с нами на постоянной основе, дают хорошие скидки (до 50%)  и преференции нашим покупателям.\n   Мы работаем только по договору, с каждым клиентом у нас индивидуальные договорённости, которые достигаются в ходе переговоров. \n   Наши клиенты платят только за результат после выполнения нами всех договорных обязательств.\n   \n   Стоимость услуг указана на сайте anberloga.ru","location":0,"company_url":null,"gender":null,"cian_show_profile":true,"expirience":"2015","has_master_phone":true,"avatar_url":null,"contact_email":"ak@anberloga.ru","company_name":"БЕРЛОГА","skype":null,"birth_date":null,"is_private_broker":false,"master_phone":"+7 (903) 081-73-00","social_profiles":[],"link_company_name":null},"countries":[],"skills":[{"id":718,"name":"коммерческая"},{"id":731,"name":"ипотека"},{"id":745,"name":"консультации"},{"id":711,"name":"жилая"},{"id":713,"name":"загородная"},{"id":715,"name":"зарубежная"},{"id":717,"name":"коммерческая"},{"id":732,"name":"рефинансирование"},{"id":741,"name":"страхование"},{"id":743,"name":"управление объектами"},{"id":744,"name":"строительство"},{"id":747,"name":"ремонт"}],"locations":[{"id":4612,"name":"Свердловская обл."}],"trade_mark_certificates":[],"work_time_settings":{"callTo":"21:00:00","userId":19394474,"enabled":true,"vacation":false,"workdaysOnly":false,"callFrom":"09:00:00","timezone":{"timezone":3,"name":"Московское время MSK (UTC+3)"}},"public_profile":{"can_publish":true,"account_type":"agency","name":"БЕРЛОГА","has_avatar":true,"moderator_comment":null,"is_private_broker":false,"agency_name":"БЕРЛОГА","avatar_url":"https:\u002F\u002Fcian.ru\u002Favatar.axd?i=4050748&t=2&p=2","public_avatar_url":"\u002Favatar.axd?i=4050748&t=2&p=2","in_action":true,"agent_url":"https:\u002F\u002Fwww.cian.ru\u002Fcompany\u002F19394474\u002F","moderation_status":"approved"},"can_show_online":false},"chats":{"isUserChatsActivated":true},"autopay":{"attempt_error_count":0,"last_payed_date":1621416283,"state":"active","creation_date":1538979133,"amount":"0.00","period_type":null,"start_date":1538979133},"newNotifications":{"count":5,"notifications":[{"create_date":"2021-05-20T16:07:05.887046","level":"auto","text":"Истек срок публикации объявления \u003Ca target=\"_blank\" href=\"https:\u002F\u002Fwww.cian.ru\u002Fsale\u002Fsuburban\u002F245322240\"\u003E245322240\u003C\u002Fa\u003E (Продажа коттеджа: Россия, Свердловская область, Екатеринбург, Верх-Исетский район, микрорайон Широкая Речка, посёлок Лиственный, Лиственная улица, 50 - 27&nbsp;000&nbsp;000&nbsp;руб., +7 (958) 718-42-52)","created_at":1621516025,"button_link":"https:\u002F\u002Fwww.cian.ru\u002Frazmestit-obyavlenie\u002F245322240\u002F","button_text":"Восстановить?","expires_at":1624108025,"action_button_text":"Восстановить?","action_button_link":"https:\u002F\u002Fwww.cian.ru\u002Frazmestit-obyavlenie\u002F245322240\u002F","expire_date":"2021-06-19T16:07:05.887046","is_expired":false,"type":"service","id":150019189},{"create_date":"2021-05-20T16:06:06.968650","level":"auto","text":"Истек срок публикации объявления \u003Ca target=\"_blank\" href=\"https:\u002F\u002Fwww.cian.ru\u002Fsale\u002Fcommercial\u002F253786184\"\u003E253786184\u003C\u002Fa\u003E (Продажа комерческих земель: Россия, Свердловская область, Екатеринбург, улица Титова, 19 - 2&nbsp;500&nbsp;000&nbsp;000&nbsp;руб., +7 (958) 718-42-52)","created_at":1621515966,"button_link":"https:\u002F\u002Fwww.cian.ru\u002Frazmestit-obyavlenie\u002F253786184\u002F","button_text":"Восстановить?","expires_at":1624107966,"action_button_text":"Восстановить?","action_button_link":"https:\u002F\u002Fwww.cian.ru\u002Frazmestit-obyavlenie\u002F253786184\u002F","expire_date":"2021-06-19T16:06:06.968650","is_expired":false,"type":"service","id":150019119},{"create_date":"2021-05-19T15:25:14.314159","level":"auto","text":"Ваш счет пополнен на 225 б. Основание: Кэшбэк баллами на аукцион за активацию пакета продвижения","created_at":1621427114,"expires_at":1624019114,"expire_date":"2021-06-18T15:25:14.314159","is_expired":false,"type":"service","id":149902091},{"create_date":"2021-05-19T12:35:21.592427","level":"auto","text":"Ваш счет пополнен на    3 000 р. 19.05.2021. Основание: YandexMoney[AC] (2836ecdb-000f-5000-a000-1164d9b2a13b)","created_at":1621416921,"expires_at":1624008921,"expire_date":"2021-06-18T12:35:21.592427","is_expired":false,"type":"service","id":149889439},{"create_date":"2021-05-07T12:10:17.991127","level":"auto","text":"Ваш счет пополнен на 70 р. 07.05.2021. Основание: Возврат за заявку №1550902. Оставлена ошибочно. ","created_at":1620378617,"expires_at":1622970617,"expire_date":"2021-06-06T12:10:17.991127","is_expired":false,"type":"service","id":148412218}],"total_count":5},"system":{"myOffersPopupShow":false,"addedToFavoritesPopupShow":false,"showHelpPopup":false,"error":null,"menuDropdownPopupOpened":null,"menuDropdownComplainPopupOpened":null},"filters":{"isOpenMoreFiltersPopup":false,"isLoadingGeoTag":false,"filters":{"dealType":"any","offerType":"any","objectTypes":[],"leadType":[],"purchaseMethods":[],"hideAgentDemands":false,"geo":[]}},"tabs":{"active":"notAccepted"},"demand":{"isDemandEnabled":true},"listing":{"banner":{"position":0,"link":null,"imageUrl":null},"isLoading":false,"leads":[{"undergrounds":[],"formattedPrice":"до 5 000 ₽\u002Fмес.","objectTypeText":"Торговая площадь","endDate":"","roomsCountText":"","startDate":"22 мая 11:59","offerTypeText":"Коммерческая","id":1566405,"areaText":"до 1 м²","tags":[],"urgently":"","viewsCount":"1 просмотр","isViewed":true,"geoMainText":"Екатеринбург","geoText":[],"dealTypeText":"Снять"},{"undergrounds":[{"type":"ekb","name":"Площадь 1905 года","color":"#00701A"},{"type":"ekb","name":"Геологическая","color":"#00701A"}],"formattedPrice":"20 700 ₽\u002Fмес.","objectTypeText":"Офис","endDate":"","roomsCountText":"","startDate":"21 мая 16:15","offerTypeText":"Коммерческая","id":1565927,"areaText":"41—42 м²","tags":[],"urgently":"","viewsCount":"1 просмотр","isViewed":true,"geoMainText":"Екатеринбург","geoText":["Ленинский","Центр"],"dealTypeText":"Снять"},{"undergrounds":[],"formattedPrice":"","objectTypeText":"Участок","endDate":"","roomsCountText":"","startDate":"21 мая 08:21","offerTypeText":"Загородная","id":1565493,"areaText":"","tags":[],"urgently":"","viewsCount":"17 просмотров","isViewed":true,"geoMainText":"Екатеринбург","geoText":["Совхоз"],"dealTypeText":"Купить"},{"undergrounds":[{"type":"ekb","name":"Ботаническая","color":"#00701A"}],"formattedPrice":"","objectTypeText":"Псн","endDate":"","roomsCountText":"","startDate":"21 мая 07:57","offerTypeText":"Коммерческая","id":1565479,"areaText":"77 м²","tags":[],"urgently":"","viewsCount":"2 просмотра","isViewed":true,"geoMainText":"Екатеринбург","geoText":[],"dealTypeText":"Снять"},{"undergrounds":[{"type":"ekb","name":"Ботаническая","color":"#00701A"}],"formattedPrice":"2,1 млн ₽","objectTypeText":"Участок","endDate":"","roomsCountText":"","startDate":"17 мая 20:12","offerTypeText":"Загородная","id":1562387,"areaText":"","tags":[{"name":"Собственник","color":"secondaryGreen"}],"urgently":"","viewsCount":"24 просмотра","isViewed":true,"geoMainText":"Екатеринбург","geoText":[],"dealTypeText":"Продать"},{"undergrounds":[],"formattedPrice":"","objectTypeText":"Гараж","endDate":"Завтра заявка сгорит","roomsCountText":"","startDate":"16 мая 14:27","offerTypeText":"Коммерческая","id":1561164,"areaText":"","tags":[],"urgently":"","viewsCount":"14 просмотров","isViewed":true,"geoMainText":"Эльмаш мкр","geoText":["Орджоникидзевский"],"dealTypeText":"Купить"},{"undergrounds":[],"formattedPrice":"500 000 ₽","objectTypeText":"Готовый бизнес","endDate":"Завтра заявка сгорит","roomsCountText":"","startDate":"16 мая 10:16","offerTypeText":"Коммерческая","id":1560990,"areaText":"","tags":[{"name":"Агент","color":"secondaryGray"},{"name":"Готов пересмотреть цену","color":"secondaryGreen"},{"name":"Есть объявление","color":"secondaryGreen"}],"urgently":"Срочно, 3 мес.","viewsCount":"22 просмотра","isViewed":true,"geoMainText":"ЖБИ мкр","geoText":["Кировский"],"dealTypeText":"Продать"}],"page":{"offset":0,"limit":24,"count":7,"canLoadMore":false},"package":{"startAt":"2020-12-08T05:42:47.717000+00:00","count":100,"endAt":"2021-06-06T05:42:47.717000+00:00","id":2066,"actualCount":26}},"countsTexts":{"incomingLeads":"7","inWorkLeads":"65","archiveLeads":"72","newLeads":0}},"priority":10,"filter":{}},{"key":"applicationContext.custom","value":{"userAgent":"Mozilla\u002F5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\u002F537.36 (KHTML, like Gecko) Chrome\u002F90.0.4430.212 Safari\u002F537.36"},"priority":0,"filter":{}}];
+  </script>
+  <script src="//cdn.cian.site/frontend/leads-listing-frontend/main.175a699fef3a75585741.js">
+  </script>
+  <noscript>
+   <iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-KC2KW5" style="display:none;visibility:hidden" width="0">
+   </iframe>
+  </noscript>
+  <script src="//cdn.cian.site/media/adfox/ads.js">
+  </script>
+  <script>
+   !function(){function e(){var e=document.createElement("script");e.async=!0,e.src="//cdn.cian.site/frontend/ca/l/ca.min.js",e.setAttribute("data-analytics-api-url","//sopr-api.cian.ru/collect/"),e.setAttribute("data-profile-session-key","D33B7E46-BB92-11EB-AEF9-EC2F9C43B523");var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}function t(){var e=document.createElement("script");e.async=!0,e.src="//www.googletagmanager.com/gtm.js?id=GTM-KC2KW5";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}function n(){!function(e){function t(i){if(n[i])return n[i].exports;var r=n[i]={i:i,l:!1,exports:{}};return e[i].call(r.exports,r,r.exports,t),r.l=!0,r.exports}var n={};t.m=e,t.c=n,t.d=function(e,n,i){t.o(e,n)||Object.defineProperty(e,n,{enumerable:!0,get:i})},t.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},t.t=function(e,n){if(1&n&&(e=t(e)),8&n)return e;if(4&n&&"object"==typeof e&&e&&e.__esModule)return e;var i=Object.create(null);if(t.r(i),Object.defineProperty(i,"default",{enumerable:!0,value:e}),2&n&&"string"!=typeof e)for(var r in e)t.d(i,r,function(t){return e[t]}.bind(null,r));return i},t.n=function(e){var n=e&&e.__esModule?function(){return e["default"]}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},t.p="",t(t.s=2)}([,,function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=n(3),r=n(4);window.initPerformanceMetrics=function(e,t,n,o,c,a){try{var u="production"===i.calculateEnvironmentByHost(window.location.hostname),d=window.location.hash.indexOf("force-metrics")>=0;if(!u&&!d)return;if(!e)return;window.__cianMetrics__=window.__cianMetrics__||{},window.__cianMetrics__.loadingTime=Date.now(),"complete"===document.readyState?r.runMetricsCollector(e,t,n,o,c,a):window.addEventListener("load",r.runMetricsCollector.bind(null,e,t,n,o,c,a))}catch(e){console.error("Metrics error "+e)}}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=[["beta",/stage\.cian\.ru$/i],["development",/dev[2,3]?\.cian\.ru$/i],["local",/local(\.map)?\.cian\.ru$/i],["local",/^localhost(:\d+)?$/i],["production",/cian\.ru$/i]];t.calculateEnvironmentByHost=function(e){for(var t=0,n=i;t<n.length;t++){var r=n[t];if(r[1].test(e))return r[0]}return"unknown"}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.runMetricsCollector=void 0;var i,r=n(5),o=n(6),c=n(7),a=n(8),u=null;r.subscribeWindowViewChange(function(e){i=e});var d=function(e,t,n){if(i===r.Visibility.visible)try{fetch(c.removeExtraSlashesFromUrl(""+e+t),{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(n)})["catch"](function(n){console.error(""+e+t,n)})}catch(n){console.error(""+e+t,n)}},s=function(e,t){var n=c.get(e,"fetchStart");return{domInteractive:c.getTiming(e,"domInteractive",t,n)}},f=function(e){return{backend:c.getTimingDifference(c.get(e,"responseStart"),c.get(e,"requestStart")),domComplete:c.getTimingDifference(c.get(e,"domComplete"),c.get(e,"domLoading")),domInteractive:c.getTimingDifference(c.get(e,"domInteractive"),c.get(e,"domLoading"))}},l=function(){if(!window.performance)return{timingDiff:f({}),entries:[],timing:s({},!1)};var e=window.performance,t=s(e.timing||{},!0),n=f(e.timing);return{timingDiff:{backend:n.backend,domComplete:n.domComplete,domInteractive:n.domInteractive},entries:o.getPerformanceEntries(),timing:{domInteractive:t.domInteractive}}},m=function(e,t,n){return{microserviceName:n,performance:l(),vitals:u&&u.popEntries()||[],profileSessionKey:e,deviceType:t}},p=function(e,t,n,i,r){if(window.performance){var o=m(n,i,r);(o.performance.entries.length||o.vitals.length)&&d(e,t,o),setTimeout(function(){p(e,t,n,i,r)},5e3)}};t.runMetricsCollector=function(e,t,n,i,r,o){o&&(u=new a.Vitals),setTimeout(function(){d(e,t,m(n,i,r))},1e3),setTimeout(function(){p(e,t,n,i,r)},5e3)}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.subscribeWindowViewChange=t.Visibility=void 0;var i,r=[];!function(e){e.visible="visible",e.hidden="hidden"}(i=t.Visibility||(t.Visibility={}));var o,c,a=i.visible,u=function(e){var t={focus:i.visible,focusin:i.visible,pageshow:i.visible,blur:i.hidden,focusout:i.hidden,pagehide:i.hidden};if("hidden"in document)a=document.hidden?i.hidden:i.visible;else if("mozHidden"in document)a=document.mozHidden?i.hidden:i.visible;else if("webkitHidden"in document)a=document.webkitHidden?i.hidden:i.visible;else if("msHidden"in document)a=document.msHidden?i.hidden:i.visible;else{var n=e||window.event;a=n.type in t?t[n.type]:i.visible}r.forEach(function(e){e(a)})};(c="hidden")in document?document.addEventListener("visibilitychange",u):"mozHidden"in document?(c="mozHidden",document.addEventListener("mozvisibilitychange",u)):"webkitHidden"in document?(c="webkitHidden",document.addEventListener("webkitvisibilitychange",u)):"msHidden"in document?(c="msHidden",document.addEventListener("msvisibilitychange",u)):"onfocusin"in document?document.onfocusin=document.onfocusout=u:window.onpageshow=window.onpagehide=window.onfocus=window.onblur=u,o=c,t.subscribeWindowViewChange=function(e){return r.push(e),void 0!==document[o]&&u({type:document[o]?"blur":"focus"}),function(){var t=r.indexOf(e);r.splice(t,1)}}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.getPerformanceEntries=t.getPerformanceEntriesArray=void 0;var i=[],r=function(e){return[e.name,e.startTime,e.duration,e.entryType].join(":")},o=function(e){return i.push(r(e))};t.getPerformanceEntriesArray=function(){return performance.getEntries?performance.getEntries():[]},t.getPerformanceEntries=function(){var e=t.getPerformanceEntriesArray().filter(function(e){return function(e){return e&&(window.PerformanceMeasure&&e instanceof window.PerformanceMeasure||"measure"===e.entryType)}(e)&&function(e){return!i.some(function(t){return r(e)===t})}(e)});return e.forEach(o),e.map(function(e){return{duration:e.duration,entryType:e.entryType,name:e.name,startTime:e.startTime}})}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.removeExtraSlashesFromUrl=t.getTiming=t.getTimingDifference=t.get=void 0,t.get=function(e,t){var n=e[t];return void 0===n?null:n},t.getTimingDifference=function(e,t){return null!==e&&null!==t?e-t:null},t.getTiming=function(e,t,n,i){return t in e&&0!==e[t]?n?null===i||0===i?null:e[t]-i:e[t]:null},t.removeExtraSlashesFromUrl=function(e){return e.replace(/([^:]\/)\/+/g,"$1")}},function(e,t,n){"use strict";var i=this&&this.__rest||function(e,t){var n={};for(var i in e)Object.prototype.hasOwnProperty.call(e,i)&&t.indexOf(i)<0&&(n[i]=e[i]);if(null!=e&&"function"==typeof Object.getOwnPropertySymbols){var r=0;for(i=Object.getOwnPropertySymbols(e);r<i.length;r++)t.indexOf(i[r])<0&&Object.prototype.propertyIsEnumerable.call(e,i[r])&&(n[i[r]]=e[i[r]])}return n},r=this&&this.__read||function(e,t){var n="function"==typeof Symbol&&e[Symbol.iterator];if(!n)return e;var i,r,o=n.call(e),c=[];try{for(;(void 0===t||t-->0)&&!(i=o.next()).done;)c.push(i.value)}catch(e){r={error:e}}finally{try{i&&!i.done&&(n=o["return"])&&n.call(o)}finally{if(r)throw r.error}}return c},o=this&&this.__spread||function(){for(var e=[],t=0;t<arguments.length;t++)e=e.concat(r(arguments[t]));return e};Object.defineProperty(t,"__esModule",{value:!0}),t.Vitals=void 0;var c=n(9),a=function(){function e(){var e=this;this.metrics=[],this.handleMetric=function(t){t.entries;var n=i(t,["entries"]);e.metrics.push(n)},c.getCLS(this.handleMetric),c.getFCP(this.handleMetric),c.getFID(this.handleMetric),c.getLCP(this.handleMetric),c.getTTFB(this.handleMetric)}return e.prototype.popEntries=function(){var e=o(this.metrics);return this.metrics=[],e},e}();t.Vitals=a},function(e,t,n){"use strict";n.r(t),n.d(t,"getCLS",function(){return m}),n.d(t,"getFCP",function(){return h}),n.d(t,"getFID",function(){return k}),n.d(t,"getLCP",function(){return M}),n.d(t,"getTTFB",function(){return O});var i,r,o,c,a=function(e,t){return{name:e,value:void 0===t?-1:t,delta:0,entries:[],id:"v1-".concat(Date.now(),"-").concat(Math.floor(8999999999999*Math.random())+1e12)}},u=function(e,t){try{if(PerformanceObserver.supportedEntryTypes.includes(e)){if("first-input"===e&&!("PerformanceEventTiming"in self))return;var n=new PerformanceObserver(function(e){return e.getEntries().map(t)});return n.observe({type:e,buffered:!0}),n}}catch(e){}},d=function(e,t){var n=function i(n){"pagehide"!==n.type&&"hidden"!==document.visibilityState||(e(n),t&&(removeEventListener("visibilitychange",i,!0),removeEventListener("pagehide",i,!0)))};addEventListener("visibilitychange",n,!0),addEventListener("pagehide",n,!0)},s=function(e){addEventListener("pageshow",function(t){t.persisted&&e(t)},!0)},f="function"==typeof WeakSet?new WeakSet:new Set,l=function(e,t,n){var i;return function(){t.value>=0&&(n||f.has(t)||"hidden"===document.visibilityState)&&(t.delta=t.value-(i||0),(t.delta||void 0===i)&&(i=t.value,e(t)))}},m=function(e,t){var n,i=a("CLS",0),r=function(e){e.hadRecentInput||(i.value+=e.value,i.entries.push(e),n())},o=u("layout-shift",r);o&&(n=l(e,i,t),d(function(){o.takeRecords().map(r),n()}),s(function(){i=a("CLS",0),n=l(e,i,t)}))},p=-1,v=function(){return"hidden"===document.visibilityState?0:1/0},b=function(){d(function(e){var t=e.timeStamp;p=t},!0)},y=function(){return 0>p&&(p=v(),b(),s(function(){setTimeout(function(){p=v(),b()},0)})),{get timeStamp(){return p}}},h=function(e,t){var n,i=y(),r=a("FCP"),o=function(e){"first-contentful-paint"===e.name&&(d&&d.disconnect(),e.startTime<i.timeStamp&&(r.value=e.startTime,r.entries.push(e),f.add(r),n()))},c=performance.getEntriesByName("first-contentful-paint")[0],d=c?null:u("paint",o);(c||d)&&(n=l(e,r,t),c&&o(c),s(function(i){r=a("FCP"),n=l(e,r,t),requestAnimationFrame(function(){requestAnimationFrame(function(){r.value=performance.now()-i.timeStamp,f.add(r),n()})})}))},g={passive:!0,capture:!0},w=new Date,S=function(e,t){i||(i=t,r=e,o=new Date,_(removeEventListener),E())},E=function(){if(r>=0&&o-w>r){var e={entryType:"first-input",name:i.type,target:i.target,cancelable:i.cancelable,startTime:i.timeStamp,processingStart:i.timeStamp+r};c.forEach(function(t){t(e)}),c=[]}},T=function(e){if(e.cancelable){var t=(e.timeStamp>1e12?new Date:performance.now())-e.timeStamp;"pointerdown"==e.type?function(e,t){var n=function(){S(e,t),r()},i=function(){r()},r=function(){removeEventListener("pointerup",n,g),removeEventListener("pointercancel",i,g)};addEventListener("pointerup",n,g),addEventListener("pointercancel",i,g)}(t,e):S(t,e)}},_=function(e){["mousedown","keydown","touchstart","pointerdown"].forEach(function(t){return e(t,T,g)})},k=function(e,t){var n,o=y(),m=a("FID"),p=function(e){e.startTime<o.timeStamp&&(m.value=e.processingStart-e.startTime,m.entries.push(e),f.add(m),n())},v=u("first-input",p);n=l(e,m,t),v&&d(function(){v.takeRecords().map(p),v.disconnect()},!0),v&&s(function(){var o;m=a("FID"),n=l(e,m,t),c=[],r=-1,i=null,_(addEventListener),o=p,c.push(o),E()})},M=function(e,t){var n,i=y(),r=a("LCP"),o=function(e){var t=e.startTime;t<i.timeStamp&&(r.value=t,r.entries.push(e)),n()},c=u("largest-contentful-paint",o);if(c){n=l(e,r,t);var m=function(){f.has(r)||(c.takeRecords().map(o),c.disconnect(),f.add(r),n())};["keydown","click"].forEach(function(e){addEventListener(e,m,{once:!0,capture:!0})}),d(m,!0),s(function(i){r=a("LCP"),n=l(e,r,t),requestAnimationFrame(function(){requestAnimationFrame(function(){r.value=performance.now()-i.timeStamp,f.add(r),n()})})})}},O=function(e){var t,n=a("TTFB");t=function(){try{var e=performance.getEntriesByType("navigation")[0]||function(){var e=performance.timing,t={entryType:"navigation",startTime:0};for(var n in e)"navigationStart"!==n&&"toJSON"!==n&&(t[n]=Math.max(e[n]-e.navigationStart,0));return t}();if(n.value=n.delta=e.responseStart,n.value<0)return;n.entries=[e],t(n)}catch(t){}},"complete"===document.readyState?setTimeout(t,0):addEventListener("pageshow",t)}}]);var e=-1==="https://sopr-api.cian.ru/".indexOf("performanceMetricsHostUrl"),t=-1==="/frontend-metrics/".indexOf("performanceMetricsPathUrl"),n=!0;try{n=JSON.parse("{{webVitalsEnabled}}")}catch(i){}e&&t&&window.initPerformanceMetrics("https://sopr-api.cian.ru/","/frontend-metrics/","D33B7E46-BB92-11EB-AEF9-EC2F9C43B523","Desktop","leads-listing-frontend",n)}function i(){n(),e(),t()}function r(){for(var e=["dev","beta","local"],t=!1,n=0;n<e.length;n++)window.location.host.indexOf(e[n])>=0&&(t=!0);if(t)return null;var i=new Image(0,0);i.src="https://api.cian.ru/utr/v1/u/t",document.body.appendChild(i)}window._cianCanRunAds||(document.cookie="adb=1; path=/; domain=.cian.ru"),function(){function e(){o||c||(c=!0,setTimeout(function(){i()},10))}function n(e){window.fetch("https://sopr-api.cian.ru/dckpail/",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({ks:e,sz:[window.innerWidth,window.innerHeight]})})["catch"](function(e){})}var o=0,c=!1,a=0,u=1;!function(e){function t(i){if(n[i])return n[i].exports;var r=n[i]={i:i,l:!1,exports:{}};return e[i].call(r.exports,r,r.exports,t),r.l=!0,r.exports}var n={};t.m=e,t.c=n,t.d=function(e,n,i){t.o(e,n)||Object.defineProperty(e,n,{enumerable:!0,get:i})},t.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},t.t=function(e,n){if(1&n&&(e=t(e)),8&n)return e;if(4&n&&"object"==typeof e&&e&&e.__esModule)return e;var i=Object.create(null);if(t.r(i),Object.defineProperty(i,"default",{enumerable:!0,value:e}),2&n&&"string"!=typeof e)for(var r in e)t.d(i,r,function(t){return e[t]}.bind(null,r));return i},t.n=function(e){var n=e&&e.__esModule?function(){return e["default"]}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},t.p="",t(t.s=1)}([,function(e,t,n){"use strict";var i=this&&this.__read||function(e,t){var n="function"==typeof Symbol&&e[Symbol.iterator];if(!n)return e;var i,r,o=n.call(e),c=[];try{for(;(void 0===t||t-->0)&&!(i=o.next()).done;)c.push(i.value)}catch(e){r={error:e}}finally{try{i&&!i.done&&(n=o["return"])&&n.call(o)}finally{if(r)throw r.error}}return c},r=this&&this.__spread||function(){for(var e=[],t=0;t<arguments.length;t++)e=e.concat(i(arguments[t]));return e};Object.defineProperty(t,"__esModule",{value:!0}),window.dbf=function(e){var t=e.wk,n=e.dk,i=e.da,o=e.swk,c=e.cdr,a=window,u={bnd:!1,ks:[]};if(!a.atob)return u;u.ks=u.ks.concat(r(t.filter(function(e){return a.atob(e)in a}),n.filter(function(e){return a.atob(e)in a.document}),i.filter(function(e){return!!a.document.documentElement.getAttribute(a.atob(e))}),Object.keys(a.document).filter(function(e){return c.some(function(t){return t.test(e)})})));var d=a.external&&a.external.toString&&a.external.toString();return d&&-1!==d.indexOf(o)&&u.ks.push(o),u.ks.length&&(u.bnd=!0),u}}]);var d=Object.assign({wk:["X3NlbGVuaXVt","Y2FsbFNlbGVuaXVt","X1NlbGVuaXVtX0lERV9SZWNvcmRlcg==","X3BoYW50b20=","Y2FsbFBoYW50b20=","d2ViZHJpdmVy","d2ViZHJpdmVy","ZG9tQXV0b21hdGlvbg==","X19uaWdodG1hcmU=","bmlnaHRtYXJl","V2ViUGFnZQ==","cmVxdWlyZQ==","ZmxhdHRlbkltcG9ydHM="],dk:["X193ZWJkcml2ZXJfZXZhbHVhdGU=","X193ZWJkcml2ZXJfc2NyaXB0X2Z1bmN0aW9u","X193ZWJkcml2ZXJfc2NyaXB0X2Z1bmM=","X193ZWJkcml2ZXJfc2NyaXB0X2Zu","X19kcml2ZXJfZXZhbHVhdGU=","X19kcml2ZXJfdW53cmFwcGVk","X193ZWJkcml2ZXJfdW53cmFwcGVk","X19zZWxlbml1bV9ldmFsdWF0ZQ==","X19meGRyaXZlcl9ldmFsdWF0ZQ==","X19zZWxlbml1bV91bndyYXBwZWQ=","X19meGRyaXZlcl91bndyYXBwZWQ="],da:["c2VsZW5pdW0=","d2ViZHJpdmVy","ZHJpdmVy"],swk:"U2VxdWVudHVt"},{cdr:[/^(\_*)?\$cdc/,/^(\_*)?\$chrome/]});r(),document.addEventListener("click",function s(){if(a)5>u&&document.removeEventListener("click",s);else{var e=window.dbf(d);e.bnd&&(a=1,n(e.ks))}}),window.addEventListener("DOMContentLoaded",function(){setTimeout(function e(){if(!a){var t=window.dbf(d);t.bnd?(a=1,n(t.ks)):5>u&&(setTimeout(e,200*u),u++)}},1e3)}),window.ceb&&window.ceb.subscribe("metrics-loader",function(t){"lock-initialization"===t.type?o++:"unlock-initialization"===t.type&&(o--,e())}),window.addEventListener?window.addEventListener("load",e):window.attachEvent?window.attachEvent("onload",e):window.onload=t}()}()
+  </script>
+  <img height="0" src="https://api.cian.ru/utr/v1/u/t" width="0"/>
+  <script id="" type="text/javascript">
+   !function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1549863475332450");fbq("trackSingle","1549863475332450","PageView");
+  </script>
+  <noscript>
+   <img height="1" src="https://www.facebook.com/tr?id=1549863475332450&amp;ev=PageView
+&amp;noscript=1" width="1"/>
+  </noscript>
+  <iframe height="0" src="//8242875.fls.doubleclick.net/activityi;src=8242875;type=invmedia;cat=amfnjhmr;ord=7866456531909;gtm=2wg5c1;auiddc=48241150.1621752484;u3=19394474;u9=925419744.1621752484;~oref=https%3A%2F%2Fmy.cian.ru%2Fleads%2F?" style="display: none; visibility: hidden;" width="0">
+  </iframe>
+  <iframe height="0" src="//9438621.fls.doubleclick.net/activityi;src=9438621;type=phone0;cat=ciana0;ord=925419744.1621752484_1gz16zia;gtm=2wg5c1;auiddc=48241150.1621752484;u4=925419744.1621752484;u5=19394474;~oref=https%3A%2F%2Fmy.cian.ru%2Fleads%2F?" style="display: none; visibility: hidden;" width="0">
+  </iframe>
+  <iframe height="0" src="//9438621.fls.doubleclick.net/activityi;src=9438621;type=count0;cat=sbord0;ord=4503230537187;gtm=2wg5c1;auiddc=48241150.1621752484;u4=925419744.1621752484;u5=19394474;u9=%2Fleads%2F;~oref=https%3A%2F%2Fmy.cian.ru%2Fleads%2F?" style="display: none; visibility: hidden;" width="0">
+  </iframe>
+  <iframe height="0" src="//9438621.fls.doubleclick.net/activityi;src=9438621;type=all_site;cat=ciana0;ord=1;num=967535531926;gtm=2wg5c1;auiddc=48241150.1621752484;u4=925419744.1621752484;u5=19394474;u9=%2Fleads%2F;~oref=https%3A%2F%2Fmy.cian.ru%2Fleads%2F?" style="display: none; visibility: hidden;" width="0">
+  </iframe>
+  <script id="" type="text/javascript">
+   var crtg_nid="4921",crtg_cookiename="crtg_rta",crtg_varname="crtg_content";function crtg_getCookie(b){var a,c=document.cookie.split(";");for(a=0;a<c.length;a++){var d=c[a].substr(0,c[a].indexOf("\x3d"));var e=c[a].substr(c[a].indexOf("\x3d")+1);d=d.replace(/^\s+|\s+$/g,"");if(d==b)return unescape(e)}return""}var crtg_content=crtg_getCookie(crtg_cookiename),crtg_rnd=Math.floor(99999999999*Math.random());
+(function(){var b=location.protocol+"//rtax.criteo.com/delivery/rta/rta.js?netId\x3d"+escape(crtg_nid);b+="\x26cookieName\x3d"+escape(crtg_cookiename);b+="\x26rnd\x3d"+crtg_rnd;b+="\x26varName\x3d"+escape(crtg_varname);var a=document.createElement("script");a.type="text/javascript";a.src=b;a.async=!0;0<document.getElementsByTagName("head").length?document.getElementsByTagName("head")[0].appendChild(a):0<document.getElementsByTagName("body").length&&document.getElementsByTagName("body")[0].appendChild(a)})();
+  </script>
+  <div id="vk_api_transport">
+   <script async="" src="https://vk.com/js/api/openapi.js?148" type="text/javascript">
+   </script>
+  </div>
+  <script id="" type="text/javascript">
+   setTimeout(function(){var b=document.createElement("script");b.type="text/javascript";b.src="https://vk.com/js/api/openapi.js?148";b.async=!0;document.getElementById("vk_api_transport").appendChild(b)},0);
+window.vkAsyncInit=function(){window.vk_pixel=new VK.Pixel("VK-RTRG-65574-hU3Ip");window.vk_pixel_mgcom=new VK.Pixel("VK-RTRG-433332-aePvB");var b=google_tag_manager["GTM-KC2KW5"].macro(714),c=google_tag_manager["GTM-KC2KW5"].macro(725),f=google_tag_manager["GTM-KC2KW5"].macro(736),e=google_tag_manager["GTM-KC2KW5"].macro(747),g=google_tag_manager["GTM-KC2KW5"].macro(758),h=google_tag_manager["GTM-KC2KW5"].macro(769),k=/\/rent\/flat\/.*\/rent_type=long/,d=/\/sale\/flat\/.*\/object_type=1/,l=/\/sale\/suburban\//,m=/\/rent\/suburban\//;switch(google_tag_manager["GTM-KC2KW5"].macro(770)){case "Listing":k.test(google_tag_manager["GTM-KC2KW5"].macro(771))&&"30000"!==google_tag_manager["GTM-KC2KW5"].macro(782)?
+(vk_pixel.ProductEvent(b,"view_category",a),vk_pixel_mgcom.ProductEvent(c,"view_category",a),vk_pixel_mgcom.ProductEvent(f,"view_search",a)):d.test(google_tag_manager["GTM-KC2KW5"].macro(783))&&"30000"!==google_tag_manager["GTM-KC2KW5"].macro(794)?(vk_pixel.ProductEvent(b,"view_category",a),vk_pixel_mgcom.ProductEvent(c,"view_category",a),vk_pixel_mgcom.ProductEvent(e,"view_search",a)):l.test(google_tag_manager["GTM-KC2KW5"].macro(795))&&"40000"!==google_tag_manager["GTM-KC2KW5"].macro(806)?(vk_pixel.ProductEvent(b,"view_category",a),vk_pixel_mgcom.ProductEvent(c,"view_category",
+a),vk_pixel_mgcom.ProductEvent(g,"view_search",a)):m.test(google_tag_manager["GTM-KC2KW5"].macro(807))&&"40000"!==google_tag_manager["GTM-KC2KW5"].macro(818)?(vk_pixel.ProductEvent(b,"view_category",a),vk_pixel_mgcom.ProductEvent(c,"view_category",a),vk_pixel_mgcom.ProductEvent(h,"view_search",a)):(vk_pixel.ProductEvent(b,"view_category",a),vk_pixel_mgcom.ProductEvent(c,"view_category",a));break;case "Card":var a={products:[{id:google_tag_manager["GTM-KC2KW5"].macro(819)}]};k.test(google_tag_manager["GTM-KC2KW5"].macro(820))&&"30000"!==google_tag_manager["GTM-KC2KW5"].macro(831)?(vk_pixel.ProductEvent(b,
+"view_product",a),vk_pixel_mgcom.ProductEvent(c,"view_product",a),vk_pixel_mgcom.ProductEvent(f,"view_product",a)):d.test(google_tag_manager["GTM-KC2KW5"].macro(832))&&"moscowobl.cian.ru"===google_tag_manager["GTM-KC2KW5"].macro(843)?(vk_pixel.ProductEvent(b,"view_product",a),vk_pixel_mgcom.ProductEvent(c,"view_product",a),vk_pixel_mgcom.ProductEvent(e,"view_product",a)):d.test(google_tag_manager["GTM-KC2KW5"].macro(844))&&"30000"!==google_tag_manager["GTM-KC2KW5"].macro(855)&&void 0!==google_tag_manager["GTM-KC2KW5"].macro(866)?(vk_pixel.ProductEvent(b,"view_product",a),vk_pixel_mgcom.ProductEvent(c,
+"view_product",a)):d.test(google_tag_manager["GTM-KC2KW5"].macro(867))&&"30000"!==google_tag_manager["GTM-KC2KW5"].macro(878)?(vk_pixel.ProductEvent(b,"view_product",a),vk_pixel_mgcom.ProductEvent(c,"view_product",a),vk_pixel_mgcom.ProductEvent(e,"view_product",a)):l.test(google_tag_manager["GTM-KC2KW5"].macro(879))&&"40000"!==google_tag_manager["GTM-KC2KW5"].macro(890)?(vk_pixel.ProductEvent(b,"view_product",a),vk_pixel_mgcom.ProductEvent(c,"view_product",a),vk_pixel_mgcom.ProductEvent(g,"view_product",a)):m.test(google_tag_manager["GTM-KC2KW5"].macro(891))&&"40000"!==google_tag_manager["GTM-KC2KW5"].macro(902)?(vk_pixel.ProductEvent(b,
+"view_product",a),vk_pixel_mgcom.ProductEvent(c,"view_product",a),vk_pixel_mgcom.ProductEvent(h,"view_product",a)):(vk_pixel.ProductEvent(b,"view_product",a),vk_pixel_mgcom.ProductEvent(c,"view_product",a));break;default:vk_pixel.Hit(),vk_pixel_mgcom.Hit()}};
+  </script>
+  <script id="" type="text/javascript">
+   !function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://vk.com/js/api/openapi.js?160";a.onload=function(){VK.Retargeting.Init("VK-RTRG-374760-250rz");VK.Retargeting.Hit()};document.head.appendChild(a)}();
+  </script>
+  <noscript>
+   <img alt="" src="https://vk.com/rtrg?p=VK-RTRG-374760-250rz" style="position:fixed; left:-999px;"/>
+  </noscript>
+  <script id="" type="text/javascript">
+   if(google_tag_manager["GTM-KC2KW5"].macro(903)!=google_tag_manager["GTM-KC2KW5"].macro(908)&&"not_authorized"!=google_tag_manager["GTM-KC2KW5"].macro(909)||"1"==google_tag_manager["GTM-KC2KW5"].macro(910)){var date=new Date,postClick=800;date.setDate(date.getDate()+postClick);document.cookie="uxfb_usertype\x3d"+google_tag_manager["GTM-KC2KW5"].macro(915)+";path\x3d/ ;expires\x3d"+date+";domain\x3d.cian.ru;"};
+  </script>
+  <script id="" type="text/javascript">
+   !function(a,e,f,k,h,g,c,b,d){a.AppsFlyerSdkObject=h;a.AF=a.AF||function(){(a.AF.q=a.AF.q||[]).push([Date.now()].concat(Array.prototype.slice.call(arguments)))};a.AF.id=a.AF.id||c;a.AF.plugins={};b=e.createElement(f);d=e.getElementsByTagName(f)[0];b.async=1;b.src="https://websdk.appsflyer.com?"+(0<g.length?"st\x3d"+g.split(",").sort().join(",")+"\x26":"")+(0<c.length?"af_id\x3d"+c:"");d.parentNode.insertBefore(b,d)}(window,document,"script",0,"AF","pba","fbf26c30-fda3-4ee9-a424-abe0376edd18");
+  </script>
+  <script id="" type="text/javascript">
+   try{AF("pba","event",{eventType:"IDENTIFY",customUserId:"19394474"})}catch(a){};
+  </script>
+  <script id="" type="text/javascript">
+   (function(d,b,e,c,a){d._uxsSettings={id:"5bacd42022bf0b48cece6012"};c=b.getElementsByTagName("head")[0];a=b.createElement("script");a.async=1;a.src=e;c.appendChild(a)})(window,document,"https://cdn.uxfeedback.ru/widget.js");
+  </script>
+  <script id="" type="text/javascript">
+   window._tfa=window._tfa||[];window._tfa.push({notify:"event",name:"page_view",id:1320396});!function(a,b,d,c){document.getElementById(c)||(a.async=1,a.src=d,a.id=c,b.parentNode.insertBefore(a,b))}(document.createElement("script"),document.getElementsByTagName("script")[0],"//cdn.taboola.com/libtrc/unip/1320396/tfa.js","tb_tfa_script");
+  </script>
+  <noscript>
+   <img height="0" src="https://trc.taboola.com/1320396/log/3/unip?en=page_view" style="display:none" width="0"/>
+  </noscript>
+  <script id="" type="text/javascript">
+   try{(function(){var c="",e="acvpmkQWVotuROqRZjNg",f=[];f.push("pr_"+e);f.push("pr_"+e+"_uid_19394474");var g="__rtbhouse.lid",b=window.localStorage.getItem(g);if(!b){b="";for(var h="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",d=0;20>d;d++)b+=h.charAt(Math.floor(Math.random()*h.length));window.localStorage.setItem(g,b)}f.push("pr_"+e+"_lid_"+b);var a=document.createElement("iframe");e=encodeURIComponent(document.referrer?document.referrer:"");g=encodeURIComponent(document.location.href?
+document.location.href:"");c="https://"+c+"creativecdn.com/tags?type\x3diframe";b=encodeURIComponent(""+Date.now());for(d=0;d<f.length;d++)c+="\x26id\x3d"+encodeURIComponent(f[d]);c+="\x26su\x3d"+g+"\x26sr\x3d"+e+"\x26ts\x3d"+b;a.setAttribute("src",c);a.setAttribute("width","1");a.setAttribute("height","1");a.setAttribute("scrolling","no");a.setAttribute("frameBorder","0");a.setAttribute("style","display:none");a.setAttribute("referrerpolicy","no-referrer-when-downgrade");document.body?document.body.appendChild(a):
+window.addEventListener("DOMContentLoaded",function(){document.body.appendChild(a)})})()}catch(c){};
+  </script>
+  <iframe frameborder="0" height="1" referrerpolicy="no-referrer-when-downgrade" scrolling="no" src="https://creativecdn.com/tags?type=iframe&amp;id=pr_acvpmkQWVotuROqRZjNg&amp;id=pr_acvpmkQWVotuROqRZjNg_uid_19394474&amp;id=pr_acvpmkQWVotuROqRZjNg_lid_FHgCSg6fMEDGNDNgFuNC&amp;su=https%3A%2F%2Fmy.cian.ru%2Fleads%2F&amp;sr=&amp;ts=1621752486179" style="display:none" width="1">
+  </iframe>
+ </body>
+</html>
